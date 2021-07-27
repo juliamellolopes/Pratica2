@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string>
 #define MAX 100
-
+using namespace std;
 
 typedef struct TipoItem Item;
 typedef struct TipoLista Lista;

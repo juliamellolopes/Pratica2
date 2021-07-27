@@ -23,5 +23,5 @@ void Lista::Retirar(int p, Lista *L, Item *dado){
 	*dado = L->Lista[p];
 	L->ultimo--;
 	for(aux =p; aux < L->ultimo;aux++){
-		L->Lista[aux]]
+		L->Lista[aux]=L->Lista[aux+1];
 }
