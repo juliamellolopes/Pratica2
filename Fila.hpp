@@ -19,7 +19,9 @@ struct TipoFila{
 };
 class Fila{
 	public:
-		
+		void FilaVazia(Fila *F);
+		void Enfileirar(Item dado, Fila *F);
+		void Desenfileirar(Fila *F, Item *dado);
 	private:
 };
 #endif
