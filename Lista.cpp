@@ -20,4 +20,8 @@ void Lista::Retirar(int p, Lista *L, Item *dado){
 		cout << "[ERRO]:posição não existente" << endl;
 		return;
 	}
+	*dado = L->Lista[p];
+	L->ultimo--;
+	for(aux =p; aux < L->ultimo;aux++){
+		L->Lista[aux]]
 }
