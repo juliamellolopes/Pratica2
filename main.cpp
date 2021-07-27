@@ -1,5 +1,5 @@
 #include <iostream>
-
+ 
 
 int main(int argc, char** argv){
 	
@@ -9,7 +9,7 @@ int main(int argc, char** argv){
 	//1abc, 2abc, 3ab, 4
 	
 	do{
-		case 1:{
+		case 1:{ 
 			do{
 				case a:{
 					
