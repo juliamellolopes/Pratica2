@@ -24,6 +24,9 @@ class Lista{
 		void ListVazia(Lista *L);
 		void Inserir(Item dado, Lista *L);
 		void Retirar(int p, Lista *L, Item *dado);
+		void opcaoA();
+		void opcaoB();
+		void opcaoC();
 	private:
 };
 #endif
