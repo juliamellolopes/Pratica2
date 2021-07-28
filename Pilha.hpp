@@ -22,6 +22,9 @@ class Pilha{
 		void PilhaVazia(Pilha *P);
 		void Push(Item dado, Pilha *P);
 		void Pop(Pilha *P, Item *dado);
+		void opcaoA();
+		void opcaoB();
+		void opcaoC();
 	private:
 		
 };

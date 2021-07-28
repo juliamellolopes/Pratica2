@@ -22,6 +22,8 @@ class Fila{
 		void FilaVazia(Fila *F);
 		void Enfileirar(Item dado, Fila *F);
 		void Desenfileirar(Fila *F, Item *dado);
+		void opcaoA();
+		void opcaoB();
 	private:
 };
 #endif
