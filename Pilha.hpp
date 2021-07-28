@@ -22,10 +22,12 @@ class Pilha{
 		void PilhaVazia(Pilha *P);
 		void Push(Item dado, Pilha *P);
 		void Pop(Pilha *P, Item *dado);
-		void opcaoA();
-		void opcaoB();
-		void opcaoC();
+		void opcao2A();
+		void opcao2B();
+		void opcao2C();
 	private:
-		
+		int dado;
+		Item stack[MAX];
+		int topo;
 };
 #endif

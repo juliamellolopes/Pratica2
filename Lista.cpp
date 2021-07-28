@@ -25,3 +25,15 @@ void Lista::Retirar(int p, Lista *L, Item *dado){
 	for(aux =p; aux < L->ultimo;aux++){
 		L->Lista[aux]=L->Lista[aux+1];
 }
+
+void Lista::opcao1A(){
+	
+}
+
+void Lista::opcao1B(){
+	
+}
+
+void Lista::opcao1C(){
+	
+}

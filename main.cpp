@@ -8,12 +8,15 @@ using namespace std;
 int main(){
 	int opc;
 	char al;
+	Lista l;
+	Pilha p;
+	Fila f;
 	
 	setlocale(LC_ALL,"portuguese");
 	
 	cout << "\n\t--------INICIALIZANDO----------------" << endl;
 	do{
-		cout << "1.Questão 01" << endl;
+		cout << "\n\n1.Questão 01" << endl;
 		cout << "2.Questão 02" << endl;
 		cout << "3.Questão 03" << endl;
 		cout << "4.questão 04" << endl;
@@ -24,7 +27,7 @@ int main(){
 		switch(opc){
 			case 1:{ 
 			do{
-				cout << "A.Alternativa A" << endl;
+				cout << "\nA.Alternativa A" << endl;
 				cout << "B.Alternativa B" << endl;
 				cout << "C.Alternativa C" << endl;
 				cout << "D.Sair da questão" << endl;
@@ -32,13 +35,13 @@ int main(){
 				
 				switch(al){
 						case a:{
-						
+							l.opcao1A();
 						break;
 						}case b:{
-							
+						//	l.opcao1B();
 						break;
 						}case c:{
-							
+						//	l.opcao1C();
 						break;
 						}case d:{
 							cout << "\n\nSaindo da questão!!";
@@ -52,7 +55,7 @@ int main(){
 			break;
 			}case 2:{
 				do{
-				cout << "A.Alternativa A" << endl;
+				cout << "\nA.Alternativa A" << endl;
 				cout << "B.Alternativa B" << endl;
 				cout << "C.Alternativa C" << endl;
 				cout << "D.Sair da questão" << endl;
@@ -60,13 +63,13 @@ int main(){
 				
 				switch(al){
 						case a:{
-						
+						//	p.opcao2A();
 						break;
 						}case b:{
-							
+						//	p.opcao2B();
 						break;
 						}case c:{
-							
+						//	p.opcao2C();
 						break;
 						}case d:{
 							cout << "\n\nSaindo da questão!!";
@@ -80,17 +83,17 @@ int main(){
 			break;
 			}case 3:{
 				do{
-				cout << "A.Alternativa A" << endl;
+				cout << "\nA.Alternativa A" << endl;
 				cout << "B.Alternativa B" << endl;
 				cout << "C.Sair da questão" << endl;
 				cin >> al;
 				
 				switch(al){
 						case a:{
-						
+						//	f.opcao3A();
 						break;
 						}case b:{
-							
+						//	f.opcao3B();
 						break;
 						}case c:{
 							cout << "\n\nSaindo da questão!!";
@@ -103,7 +106,8 @@ int main(){
 				}while(al!=d);
 			break;
 			}case 4:{
-				
+					//menu com a descriçaõ do problema
+					//resolução do problema 
 				break;
 			}case 5:{
 				cout << "\n\nSaindo do programa!!";

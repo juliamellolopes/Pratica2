@@ -24,9 +24,13 @@ class Lista{
 		void ListVazia(Lista *L);
 		void Inserir(Item dado, Lista *L);
 		void Retirar(int p, Lista *L, Item *dado);
-		void opcaoA();
-		void opcaoB();
-		void opcaoC();
+		void opcao1A();
+		void opcao1B();
+		void opcao1C();
 	private:
+		int dado;
+		Item Lista[MAX];
+		int primeiro;
+		int ultimo;
 };
 #endif
