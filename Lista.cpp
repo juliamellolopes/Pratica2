@@ -24,9 +24,28 @@ void Lista::Retirar(int p, Lista *L, Item *dado){
 	L->ultimo--;
 	for(aux =p; aux < L->ultimo;aux++){
 		L->Lista[aux]=L->Lista[aux+1];
+	}
+}
+
+void Lista::setListaI(Item LIstaI[MAX]){
+	LIstaI[MAX]->ListaI[MAX];
+}
+
+Item Lista::getListaI(){
+	return ListaI[MAX];
+}
+
+void Lista::setListaP(Item ListaP[MAX]){
+	ListaP[MAX]->ListaP[MAX];
+}
+Item Lista::setListaP(){
+	retrun ListaP[MAX];
 }
 
 void Lista::opcao1A(){
+	Lista l1;
+	l1.ListVazia(ListaI);
+	l1.ListVazia(ListaP);
 	
 }
 

@@ -24,12 +24,18 @@ class Lista{
 		void ListVazia(Lista *L);
 		void Inserir(Item dado, Lista *L);
 		void Retirar(int p, Lista *L, Item *dado);
+		void setListaI(Item ListaI[MAX]);
+		Item getListaI();
+		void setListaP(Item ListaP[MAX]);
+		Item getListaP();
 		void opcao1A();
 		void opcao1B();
 		void opcao1C();
+		void imprimir();
 	private:
 		int dado;
-		Item Lista[MAX];
+		Item ListaI[MAX];
+		Item LIstaP[MAX];
 		int primeiro;
 		int ultimo;
 };
