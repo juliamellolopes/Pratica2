@@ -46,7 +46,7 @@ void Lista::opcao1A(){
 	Lista l1;
 	l1.ListVazia(ListaI);
 	l1.ListVazia(ListaP);
-	
+	for(in i = 0;)
 }
 
 void Lista::opcao1B(){
