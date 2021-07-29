@@ -34,8 +34,8 @@ class Lista{
 		void imprimir();
 	private:
 		int dado;
-		Item ListaI[MAX];
-		Item LIstaP[MAX];
+		//lista1
+		//lista2
 		int primeiro;
 		int ultimo;
 };
