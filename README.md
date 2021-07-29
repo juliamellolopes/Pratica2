@@ -1,4 +1,6 @@
-#Pratica Nº2
+#Pratica Nº2-Trabalho Linha,Fila e Pilha.
+
+Agoritimos e Estrutudas de Dados
 
 Algoritimo resolvido em C++, na plataforma DevC++.
 
