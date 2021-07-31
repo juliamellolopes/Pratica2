@@ -3,8 +3,9 @@
 
 class Menu
 {
+	private:
+		
 	public:
-	protected:
+		void menu();
 };
-
 #endif
