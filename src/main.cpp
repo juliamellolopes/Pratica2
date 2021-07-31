@@ -49,7 +49,7 @@ int main(){
 						
 						break;
 						}case 2:{
-						
+							f.opcao2b();
 						break;
 						}case 3:{
 						

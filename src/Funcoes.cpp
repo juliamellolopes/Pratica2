@@ -40,9 +40,13 @@ void Funcoes::opcao1b(){
 	List<int>L2;
 	int somaL1 = 0;
 	int somaL2 = 0;
+	node<int> *pL1 = L1.HEAD;
+	node<int> *pL2 = L2.HEAD
 	for(int i = 0; i < 3; i++){
-		L1.push(rand%12+1);
-		L2.push(rand%12+1);
+		L1.push(rand%12);
+		L2.push(rand%12);
+		pL1 = pL1->prox;
+		pl2 = pL2->prox;
 	}
 	int num = rand%12+1;
 	for(int i = 0; i < 3; i++){
@@ -64,5 +68,43 @@ void Funcoes::opcao1b(){
 }
 
 void Funcoes::opcao1c(){
+	//não entendi
+}
+
+void Funcoes::opcao2a(){
+	//não sei como
+}
+
+void Funcoes::opcao2b(){
+	Pilha<int>P1;
+	Pilha<int>P2;
+	nope<int> *pP1 = P1.HEAD;
+	for(int i = 0; i < 10; i++){
+		P1.push(i);
+		pP1 = pP1->prox;
+	}
+	nope<int> *pP2 = P2.HEAD;
+	for(int i = 0; i < 10; i++){
+		P2.push(P1->HEAD.dado)
+		pP2 = pP2->prox;
+	}
+	for(int i = 0; i < 10; i++){
+		cout << "\n " << pP2->dado << endl;
+	    pP2 = pP2->prox;
+	}
+}
+
+void Funcoes::opcao2c(){
+	Pilha<int>P;
+	nope<int> *pP = P.HEAD;
+	for(int i = 0; i < 20; i++){
+		P.push(rand%100);
+		pP = pP->prox;
+	}
+	//função totiente de Euler?
+}
+
+void Funcoes::opcao3a(){
 	
 }
+
