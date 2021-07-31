@@ -7,8 +7,6 @@ using namespace std;
 
 class Menu
 {
-	private:
-		
 	public:
 		void menu();
 		void opcao1();

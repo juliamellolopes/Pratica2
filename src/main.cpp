@@ -10,6 +10,7 @@ int main(){
 	int opc;
 	int al;
 	Menu m;
+	Funcoes f;
 	
 	setlocale(LC_ALL,"portuguese");
 	
@@ -24,7 +25,7 @@ int main(){
 				while(al!=d){
 					switch(al){
 						case 1:{
-							
+							f.opcao1a();
 						break;
 						}case 2:{
 							

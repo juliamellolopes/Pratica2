@@ -32,3 +32,7 @@ void Funcoes::opcao1a(){
 	    ptuple = ptuple->prox;
 	}
 }
+
+void Funcoes::opcao1b(){
+	
+}
