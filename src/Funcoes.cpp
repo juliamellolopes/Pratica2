@@ -43,8 +43,8 @@ void Funcoes::opcao1b(){
 	node<int> *pL1 = L1.HEAD;
 	node<int> *pL2 = L2.HEAD
 	for(int i = 0; i < 3; i++){
-		L1.push(rand%12);
-		L2.push(rand%12);
+		L1.push(rand%13);
+		L2.push(rand%13);
 		pL1 = pL1->prox;
 		pl2 = pL2->prox;
 	}
