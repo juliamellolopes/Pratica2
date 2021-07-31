@@ -62,3 +62,7 @@ void Funcoes::opcao1b(){
 		cou << "\nO vencedor é L2" << endl;
 	}
 }
+
+void Funcoes::opcao1c(){
+	
+}
