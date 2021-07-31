@@ -1,13 +1,13 @@
 #include <iostream>
-#include "Lista.hpp"
-#include "Pilha.hpp"
-#include "Fila.hpp"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
 using namespace std;
  
 
 int main(){
 	int opc;
-	char al;
+	int al;
 	Menu m;
 	
 	setlocale(LC_ALL,"portuguese");
@@ -20,23 +20,20 @@ int main(){
 		switch(opc){
 			case 1:{ 
 			do{
-				cout << "\nA.Alternativa A" << endl;
-				cout << "B.Alternativa B" << endl;
-				cout << "C.Alternativa C" << endl;
-				cout << "D.Sair da questão" << endl;
+				Menu.opcao1();
 				cin >> al;
 				
 				switch(al){
-						case a:{
-							l.opcao1A();
+						case 1:{
+						
 						break;
-						}case b:{
-						//	l.opcao1B();
+						}case 2:{
+						
 						break;
-						}case c:{
-						//	l.opcao1C();
+						}case 3:{
+						
 						break;
-						}case d:{
+						}case 4:{
 							cout << "\n\nSaindo da questão!!";
 							break;
 						}default:{
@@ -48,21 +45,18 @@ int main(){
 			break;
 			}case 2:{
 				do{
-				cout << "\nA.Alternativa A" << endl;
-				cout << "B.Alternativa B" << endl;
-				cout << "C.Alternativa C" << endl;
-				cout << "D.Sair da questão" << endl;
+				m.opcao1();
 				cin >> al;
 				
 				switch(al){
 						case a:{
-						//	p.opcao2A();
+						
 						break;
 						}case b:{
-						//	p.opcao2B();
+						
 						break;
 						}case c:{
-						//	p.opcao2C();
+						
 						break;
 						}case d:{
 							cout << "\n\nSaindo da questão!!";
@@ -76,17 +70,15 @@ int main(){
 			break;
 			}case 3:{
 				do{
-				cout << "\nA.Alternativa A" << endl;
-				cout << "B.Alternativa B" << endl;
-				cout << "C.Sair da questão" << endl;
+				m.opcao2();
 				cin >> al;
 				
 				switch(al){
 						case a:{
-						//	f.opcao3A();
+						
 						break;
 						}case b:{
-						//	f.opcao3B();
+						
 						break;
 						}case c:{
 							cout << "\n\nSaindo da questão!!";
@@ -99,8 +91,7 @@ int main(){
 				}while(al!=d);
 			break;
 			}case 4:{
-					//menu com a descriçaõ do problema
-					//resolução do problema 
+					m.questao4();
 				break;
 			}case 5:{
 				cout << "\n\nSaindo do programa!!";
@@ -111,7 +102,5 @@ int main(){
 			}
 		}	
 	}while(opc!=5);
-	
-	
 	return 0;
 }

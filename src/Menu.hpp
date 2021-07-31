@@ -7,5 +7,8 @@ class Menu
 		
 	public:
 		void menu();
+		void opcao1();
+		void opcao2();
+		void questao4();
 };
 #endif
