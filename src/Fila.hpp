@@ -6,9 +6,9 @@
 using namespace std;
 
 class Fila{
-	public:
-		
 	private:
+		
+	public:
 	
 };
 #endif

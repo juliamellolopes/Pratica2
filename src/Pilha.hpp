@@ -7,9 +7,9 @@ using namespace std;
 
 
 class Pilha{
-	public:
-	
 	private:
+	
+	public:
 		
 };
 #endif

@@ -5,12 +5,10 @@
 #include <string>
 using namespace std;
 
-
-
 class Lista{
-	public:
-		
 	private:
+		
+	public:
 	
 };
 #endif

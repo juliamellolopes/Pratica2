@@ -7,8 +7,9 @@ using namespace std;
 
 class Funcoes
 {
-	public:
 	private:
+		
+	public:
 };
 
 #endif
