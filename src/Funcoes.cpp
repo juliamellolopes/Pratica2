@@ -15,12 +15,12 @@ void Funcoes::opcao1a(){
 	List<int> par;
   	List<int> impar;
 	List<tuple> tuplas;
-	  	for (int i = 0; i < 200; i++) {
-	   	 	if (i % 2 == 0)
-	     	 	par.push(i);
-	    	else
-	      		impar.push(i);
-	  }
+	for (int i = 0; i < 200; i++) {
+		if (i % 2 == 0)
+		 	par.push(i);
+	   	else
+	      	impar.push(i);
+	}
 	node<int> *pIm = impar.HEAD;
  	node<int> *pPar = par.HEAD;
 	for (int i = 0; i < 100; i++) {
@@ -30,11 +30,20 @@ void Funcoes::opcao1a(){
 	}
 	node<tuple> *ptuple = tuplas.HEAD;
 	for (int i = 0; i < 100; i++) {
-	    cout << " " ptuple->dado.n1 << " " << ptuple->dado.n2;
+	    cout << "\n{ " ptuple->dado.n1 << ", " << ptuple->dado.n2 << "}";
 	    ptuple = ptuple->prox;
 	}
 }
 
 void Funcoes::opcao1b(){
-	
+	List<int>L1;
+	List<int>L2;
+	for(int i = 0; i < 3; i++){
+		L1.push(rand%12+1);
+		L2.push(rand%12+1);
+	}
+	int num = rand%12+1;
+	for(int i = 0; i < 3; i++){
+		cout << "\n "
+	}
 }
