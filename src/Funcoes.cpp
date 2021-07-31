@@ -30,7 +30,7 @@ void Funcoes::opcao1a(){
 	}
 	node<tuple> *ptuple = tuplas.HEAD;
 	for (int i = 0; i < 100; i++) {
-	    std::printf("%d %d \n", ptuple->dado.n1, ptuple->dado.n2);
+	    cout << " " ptuple->dado.n1 << " " << ptuple->dado.n2;
 	    ptuple = ptuple->prox;
 	}
 }

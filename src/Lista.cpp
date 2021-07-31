@@ -8,7 +8,10 @@ template <typename T> List<T>::List() {
   this->TAIL = nullptr;
 }
 
-template <typename T> int List<T>::size() const noexcept { return this->TAM; }
+template <typename T> int List<T>::size() const noexcept{
+	return this->TAM; 
+}
+
 template <typename T> bool List<T>::isEmpty() const noexcept {
   return this->TAM == 0;
 }
