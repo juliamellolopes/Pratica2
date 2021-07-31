@@ -105,6 +105,12 @@ void Funcoes::opcao2c(){
 }
 
 void Funcoes::opcao3a(){
-	
+	//não entendi nada
 }
 
+void Funcoes::opcao3b(){
+	//não entendi
+}
+
+void Funcoes::opcao4(){
+}
