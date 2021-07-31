@@ -16,14 +16,36 @@ int main(){
 	do{
 		m.menu();
 		cin >> opc;
-		
 		switch(opc){
 			case 1:{ 
-			do{
 				Menu.opcao1();
 				cin >> al;
-				
-				switch(al){
+				while(al!=d){
+					switch(al){
+						case 1:{
+							
+						break;
+						}case 2:{
+							
+						break;
+						}case 3:{
+							
+						break;
+						}case 4:{
+							cout << "\n\nSaindo da questão!!";
+							break;
+						}default:{
+							cout << "Opção inálida";
+						break;
+						}
+					}
+				}
+			break;
+			}case 2:{
+				m.opcao1();
+				cin >> al;
+				while(al!=d){
+					switch(al){
 						case 1:{
 						
 						break;
@@ -41,39 +63,14 @@ int main(){
 						break;
 						}
 					}
-				}while(al!=d);		
-			break;
-			}case 2:{
-				do{
-				m.opcao1();
-				cin >> al;
-				
-				switch(al){
-						case a:{
-						
-						break;
-						}case b:{
-						
-						break;
-						}case c:{
-						
-						break;
-						}case d:{
-							cout << "\n\nSaindo da questão!!";
-							break;
-						}default:{
-							cout << "Opção inálida";
-						break;
-						}
-					}
-				}while(al!=d);
+				}
+			}
 			break;
 			}case 3:{
-				do{
 				m.opcao2();
 				cin >> al;
-				
-				switch(al){
+				while(al!=d){
+					switch(al){
 						case a:{
 						
 						break;
@@ -88,7 +85,7 @@ int main(){
 						break;
 						}
 					}
-				}while(al!=d);
+				};
 			break;
 			}case 4:{
 					m.questao4();
