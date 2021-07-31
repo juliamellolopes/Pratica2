@@ -10,6 +10,7 @@ class Funcoes
 	private:
 		
 	public:
+		void opcao1a();
 };
 
 #endif

@@ -1,14 +1,10 @@
-#ifndef FILA_HPP
-#define FILA_HPP
-#include <stdio.h>
-#include <stdlib.h>
-#include <string>
-using namespace std;
-
-class Fila{
-	private:
-		
-	public:
-	
+#ifndef __FILA__
+#define __FILA__
+#include "Lista.hpp"
+template <typename T> class Fila : public List<T> {
+public:
+  Fila();
+  void pop() override;
 };
+#include "Fila.cpp"
 #endif
