@@ -28,7 +28,7 @@ int main(){
 							f.opcao1a();
 						break;
 						}case 2:{
-							
+							f.opcao1b();
 						break;
 						}case 3:{
 							

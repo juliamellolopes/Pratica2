@@ -30,7 +30,7 @@ void Funcoes::opcao1a(){
 	}
 	node<tuple> *ptuple = tuplas.HEAD;
 	for (int i = 0; i < 100; i++) {
-	    cout << "\n{ " ptuple->dado.n1 << ", " << ptuple->dado.n2 << "}";
+	    cout << "{ " ptuple->dado.n1 << ", " << ptuple->dado.n2 << "}";
 	    ptuple = ptuple->prox;
 	}
 }
@@ -38,12 +38,27 @@ void Funcoes::opcao1a(){
 void Funcoes::opcao1b(){
 	List<int>L1;
 	List<int>L2;
+	int somaL1 = 0;
+	int somaL2 = 0;
 	for(int i = 0; i < 3; i++){
 		L1.push(rand%12+1);
 		L2.push(rand%12+1);
 	}
 	int num = rand%12+1;
 	for(int i = 0; i < 3; i++){
-		cout << "\n "
+		cout << "\n{ " << L1->HEAD.dado << ", " << L2->HEAD.dado << "}";
+	}
+	for(int i = 0; i < 3; i++){
+		L1->HEAD.dado - num;
+		L2->HEAD.dado - num;
+	}
+	for(int i = 0; i < 3; i++){
+		somaL1 += L1->HEAD.dado;
+		somaL2 += L2->HEAD.dado;
+	}
+	if(somaL1 > somaL2){
+		cout << "\nO vencedor é L1" << endl;
+	}else{
+		cou << "\nO vencedor é L2" << endl;
 	}
 }
