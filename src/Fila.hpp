@@ -6,28 +6,10 @@
 #define MAX 100
 using namespace std;
 
-typedef struct TipoItem Item;
-typedef struct TipoFila Fila;
-
-struct TipoItem{
-	int dado;
-};
-struct TipoFila{
-	Item Fila[MAX];
-	int Frente;
-	int Fundo;
-};
 class Fila{
 	public:
-		void FilaVazia(Fila *F);
-		void Enfileirar(Item dado, Fila *F);
-		void Desenfileirar(Fila *F, Item *dado);
-		void opcao3A();
-		void opcao3B();
+		
 	private:
-		int dado;
-		int Frente;
-		int Fundo;
-		Item Fila[MAX];
+	
 };
 #endif
