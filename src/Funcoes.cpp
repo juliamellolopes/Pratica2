@@ -1,5 +1,7 @@
 #include "Funcoes.hpp"
 #include "Lista.hpp"
+#include "Fila.hpp"
+#include "Pilha.hpp"
 #include <cstdio>
 
 struct tuple{
