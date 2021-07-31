@@ -12,9 +12,6 @@ int main(){
 	Menu m;
 	Funcoes f;
 	
-	setlocale(LC_ALL,"portuguese");
-	
-	cout << "\n\t--------INICIALIZANDO----------------" << endl;
 	do{
 		m.menu();
 		cin >> opc;

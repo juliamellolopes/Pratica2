@@ -1,12 +1,12 @@
 #ifndef __LIST__
 #define __LIST__
 
-template <typename P> struct node {
+template <typename P> struct node{
   P dado;
   node<P> *ant;
   node<P> *prox;
   node() = default;
-  node(const P dado) : dado(dado), ant(nullptr), prox(nullptr) {}
+  node(const P dado) : dado(dado), ant(nullptr), prox(nullptr){}
 };
 
 template <typename T> class List{
