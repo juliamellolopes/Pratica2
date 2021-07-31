@@ -9,7 +9,7 @@ template <typename P> struct node {
   node(const P dado) : dado(dado), ant(nullptr), prox(nullptr) {}
 };
 
-template <typename T> class List {
+template <typename T> class List{
 	protected:
 	  int TAM;
 	public:

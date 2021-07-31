@@ -2,7 +2,7 @@
 #define __FILA__
 #include "Lista.hpp"
 
-template <typename T> class Fila : public List<T> {
+template <typename T> class Fila : public List<T>{
 	public:
 	  Fila();
 	  void pop() override;

@@ -1,15 +1,12 @@
-#ifndef PILHA_HPP
-#define PILHA_HPP
-#include <stdio.h>
-#include <stdlib.h>
-#include <string>
+#ifndef __PILHA__
+#define __PILHA__
+#include "Pilha.hpp"
 using namespace std;
 
-
-class Pilha{
-	private:
-	
+template <typename T>class Pilha : public List<T>{
 	public:
-		
+		Pilha();
+		void push(const T dado) override;
+		void pop override;
 };
 #endif
