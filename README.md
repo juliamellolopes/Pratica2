@@ -1,4 +1,4 @@
-#Pratica Nº2-Trabalho Linha,Fila e Pilha.
+#Pratica Nº2-Trabalho Lista,Fila e Pilha.
 
 Agoritimos e Estrutudas de Dados
 
