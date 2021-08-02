@@ -7,8 +7,11 @@ Algoritimo resolvido em C++, na plataforma DevC++.
 Arquivo Mikefile para rodar o codigo e pasta src com o codigo.
 
 Para copilar utilize:
+
 make clean
+
 make
+
 make run
 
 
