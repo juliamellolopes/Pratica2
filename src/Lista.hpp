@@ -1,12 +1,17 @@
 #ifndef __LIST__
 #define __LIST__
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+
+using namespace std;
 
 template <typename P> struct node{
   P dado;
   node<P> *ant;
   node<P> *prox;
   node() = default;
-  node(const P dado) : dado(dado), ant(nullptr), prox(nullptr){}
+  node(const P dado) : dado(dado), ant(NULL), prox(NULL){}
 };
 
 template <typename T> class List{

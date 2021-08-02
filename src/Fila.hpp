@@ -1,6 +1,11 @@
 #ifndef __FILA__
 #define __FILA__
 #include "Lista.hpp"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+
+using namespace std;
 
 template <typename T> class Fila : public List<T>{
 	public:

@@ -2,10 +2,12 @@
 #define __LISTIMP__
 #include "Lista.hpp"
 
+using namespace std;
+
 template <typename T> List<T>::List() {
   this->TAM = 0;
-  this->HEAD = nullptr;
-  this->TAIL = nullptr;
+  this->HEAD = NULL;
+  this->TAIL = NULL;
 }
 
 template <typename T> int List<T>::size() const noexcept{
@@ -24,7 +26,7 @@ template <typename T> void List<T>::push(const T dado){
     this->TAIL->prox = new node<T>(dado);
     TAIL->prox->ant = TAIL;
     TAIL = TAIL->prox;
-    TAIL->prox = nullptr;
+    TAIL->prox = NULL;
     this->TAM++;
   }
 }
@@ -34,19 +36,19 @@ template <typename T> void List<T>::pop(){
   node<T> *pNode = TAIL;
   TAIL = TAIL->ant;
   delete pNode;
-  pNode = nullptr;
-  if (TAIL == nullptr || HEAD == nullptr){
-    HEAD = nullptr;
-    TAIL = nullptr;
+  pNode = NULL;
+  if (TAIL == NULL || HEAD == NULL){
+    HEAD = NULL;
+    TAIL = NULL;
   }
   this->TAM--;
 }
 template <typename T> List<T>::~List<T>(){
-  while (HEAD != nullptr) {
+  while (HEAD != NULL) {
     this->pop();
   }
-  HEAD = nullptr;
-  TAIL = nullptr;
+  HEAD = NULL;
+  TAIL = NULL;
 }
 #endif
 

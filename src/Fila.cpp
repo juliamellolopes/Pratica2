@@ -2,6 +2,8 @@
 #define __FILAIMP__
 #include "Fila.hpp"
 
+using namespace std;
+
 template <typename T> Fila<T>::Fila() : List<T>() {}
 
 template <typename T> void Fila<T>::pop(){
@@ -10,7 +12,7 @@ template <typename T> void Fila<T>::pop(){
     node<T> *pNode = this->HEAD;
     this->HEAD = this->HEAD->prox;
 	delete pNode;
-	pNode = nullptr;
+	pNode = NULL;
 	this->TAM--;
 }
 #endif

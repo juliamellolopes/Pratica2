@@ -1,6 +1,10 @@
 #ifndef __PILHA__
 #define __PILHA__
 #include "Pilha.hpp"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+
 using namespace std;
 
 template <typename T>class Pilha : public List<T>{

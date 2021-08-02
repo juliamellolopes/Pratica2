@@ -8,20 +8,20 @@ template <typename T> void Pilha<T>::push(const T dado){
 	if(this->isEmpty()){
         this->HEAD = this->TAIL = new node <T>(dado);
 	}else{
-    	this->HEAD->ant = new node<T>(data,nullptr,this->HEAD)    ;
+    	this->HEAD->ant = new node<T>(data,NULL,this->HEAD)    ;
     	this->HEAD = this->HEAD->ant;
     }
     this->TAM++;
 }
 
 templace <typename T> void Pilha<T>::pop(){
-	if(this->HEAD!=nullptr){
+	if(this->HEAD != NULL){
         node<T> *nd = this->HEAD;
         this->HEAD = this->HEAD->prox;
         delete nd;
     	nd = nullptr;
-    if(this->HEAD==nullptr)
-    	this->TAIL=nullptr;    
+    if(this->HEAD == NULL)
+    	this->TAIL= NULL;    
     this->TAM--;
 }
 #endif
