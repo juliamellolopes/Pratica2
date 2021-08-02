@@ -24,3 +24,4 @@ templace <typename T> void Pilha<T>::pop(){
     	this->TAIL=nullptr;    
     this->TAM--;
 }
+#endif

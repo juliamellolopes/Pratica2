@@ -9,4 +9,5 @@ template <typename T>class Pilha : public List<T>{
 		void push(const T dado) override;
 		void pop override;
 };
+#include "Pilha.hpp"
 #endif
