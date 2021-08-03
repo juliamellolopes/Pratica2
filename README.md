@@ -1,10 +1,15 @@
 <h1 align="center">Pratica Nº2-TRABALHO LISTA, PILHA, FILA</h1>
 
+<h4 align="center"> 
+	🚧  React Select Em construção...  🚧
+</h4>
+
+
 <p align="center">Escrever uma breve descrição</p>
 <h1 align="center">
-    🔗 React</a>
+    React</a>
 </h1>
-<p align="center">🚀 lib para construir interfaces do usuário com componentes reutilizáveis</p>
+<p align="center"> lib para construir interfaces do usuário com componentes reutilizáveis</p>
 Agoritimos e Estrutudas de Dados
 
 
@@ -15,9 +20,6 @@ Agoritimos e Estrutudas de Dados
  <a href="#licenc-a">Licença</a> • 
  <a href="#autor">Autor</a>
 
-<h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
-</h4>
 
 ### Features
 
