@@ -90,7 +90,7 @@ void Menu::menu(){
 				while(al!=d){
 					switch(al){
 						case a:{
-						
+							f.opcao3a();
 						break;
 						}case b:{
 						

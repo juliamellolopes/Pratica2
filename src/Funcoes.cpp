@@ -3,6 +3,7 @@
 #include "Fila.hpp"
 #include "Pilha.hpp"
 #include <cstdio>
+#include <math.h>
 
 struct tuple{
   int n1;
@@ -108,8 +109,9 @@ void Funcoes::opcao2a(){
 			pP1 = pP1->prox;
 		}
 	}
+	cout << endl;
 	for(int i = 0; i < 10; i++){
-		cout << "\n " << pP1->dado << endl;
+		cout << " " << pP1->dado << endl;
 	    pP1 = pP1->prox;
 	}
 	if(P1.HEAD == NULL){
@@ -132,8 +134,9 @@ void Funcoes::opcao2b(){
 		P2.push(P1->HEAD.dado)
 		pP2 = pP2->prox;
 	}
+	cout << endl;
 	for(int i = 0; i < 10; i++){
-		cout << "\n " << pP2->dado << endl;
+		cout << " " << pP2->dado << endl;
 	    pP2 = pP2->prox;
 	}
 }
@@ -157,7 +160,22 @@ void Funcoes::opcao2c(){
 void Funcoes::opcao3a(){
 	Fila<string>F1;
 	Fila<string>FResultante;
-	//tenho que fazer
+	int K;
+	nope<int> *pF1 = F1.HEAD;
+	for(int = 0; i < 5; i++){
+		F1.push(pow((x+y),i));	
+		pF1 = pF1->prox;	
+	}
+	nope<int> *pFR = FResultante.HEAD;
+	for(int = 0; i < 5; i++){
+		FResultante.push(F1->dado);	
+		pFR = pFR->prox;	
+	}
+	cout << endl;
+	for(int i = 0; i < 10; i++){
+		cout << " " << pP2->dado << endl;
+	    pP2 = pP2->prox;
+	}
 }
 
 void Funcoes::opcao3b(){
