@@ -29,7 +29,7 @@ void Menu::questao4(){
 
 void Menu::menu(){
 	Menu me;
-	Funcao f;
+	Funcoes f;
 	do{
 		me.menuinicial();
 		cin >> opc;
@@ -65,13 +65,13 @@ void Menu::menu(){
 				while(al!=d){
 					switch(al){
 						case 1:{
-						
+							f.opcao2a();
 						break;
 						}case 2:{
 							f.opcao2b();
 						break;
 						}case 3:{
-						
+							
 						break;
 						}case 4:{
 							cout << "\n\nSaindo da questão!!";

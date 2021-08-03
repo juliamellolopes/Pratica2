@@ -94,7 +94,29 @@ void Funcoes::opcao1c(){
 }
 
 void Funcoes::opcao2a(){
-	//não sei como
+	char* str;
+	cout << "Informe a expressão matematica:" << endl;
+	cin >>  str;
+	Pilha<char>P1;
+	nope<int> *pP1 = P1.HEAD;
+	for(int i = 0; i < sizeof(str)/sizeof(char*); i++){
+		if(str[i] == '(' ){
+			P1.push(str[i]);
+			pP1 = pP1->prox;
+		}else if(|| str[i] == ')'){
+			P1.pop();
+			pP1 = pP1->prox;
+		}
+	}
+	for(int i = 0; i < 10; i++){
+		cout << "\n " << pP1->dado << endl;
+	    pP1 = pP1->prox;
+	}
+	if(P1.HEAD == NULL){
+		cout << "\n\nExpressão com parênteses CORRETO!" << endl;
+	}else{
+		cout << "\n\nEcpressão com parênteses INCORRETO!" << endl;
+	}
 }
 
 void Funcoes::opcao2b(){
@@ -116,6 +138,12 @@ void Funcoes::opcao2b(){
 	}
 }
 
+struct coprimos{
+	Pilha<int>CoPrimos;
+	coprimos() = default;
+	coprimos(Pilha CoPrimos) :CoPrimos(CoPrimos);{}
+};
+
 void Funcoes::opcao2c(){
 	Pilha<int>P;
 	nope<int> *pP = P.HEAD;
@@ -123,12 +151,12 @@ void Funcoes::opcao2c(){
 		P.push(rand%100);
 		pP = pP->prox;
 	}
-	//função totiente de Euler?
+	
 }
 
 void Funcoes::opcao3a(){
 	Fila<string>F1;
-	Fila<string>Fresultante;
+	Fila<string>FResultante;
 	//tenho que fazer
 }
 
