@@ -5,12 +5,6 @@
 #include <cstdio>
 #include <math.h>
 
-struct tuple{
-  int n1;
-  int n2;
-  tuple() = default;
-  tuple(int n1, int n2) : n1(n1), n2(n2) {}
-};
 
 void Funcoes::opcao1a(){
 	List<int> par;
@@ -42,7 +36,7 @@ void Funcoes::opcao1b(){
 	int somaL1 = 0;
 	int somaL2 = 0;
 	node<int> *pL1 = L1.HEAD;
-	node<int> *pL2 = L2.HEAD
+	node<int> *pL2 = L2.HEAD;
 	for(int i = 0; i < 3; i++){
 		L1.push(rand%13);
 		L2.push(rand%13);
@@ -161,14 +155,6 @@ void Funcoes::opcao2c(){
 		cout << "}" << endl;;
 	}
 }
-
-struct tuple{
-	int x;
-	int y;
-	int k;
-	tuple() = default;
-	tuple(int x, int y, in k) : x(x), y(y), k(k) {}
-};
 
 void Funcoes::opcao3a(){
 	Fila<tuple>F1;

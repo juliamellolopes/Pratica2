@@ -1,5 +1,6 @@
 #ifndef MENU_H
 #define MENU_H
+#include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string>

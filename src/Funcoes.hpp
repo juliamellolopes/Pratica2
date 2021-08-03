@@ -3,8 +3,23 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string>
+#include <iostream>
 using namespace std;
 
+struct tuple{
+  int n1;
+  int n2;
+  tuple() = default;
+  tuple(int n1, int n2) : n1(n1), n2(n2) {}
+};
+
+struct triple{
+	int x;
+	int y;
+	int k;
+	tuple() = default;
+	tuple(int x, int y, in k) : x(x), y(y), k(k) {}
+};
 class Funcoes
 {
 	public:
