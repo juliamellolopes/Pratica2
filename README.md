@@ -12,7 +12,7 @@
 
 ### Copilação
 
-Programação feita em C++, na plataforma DevC++, no Windows.Abra o aruivo Mikefile.cpp e copile:
+Programação feita em C++, na plataforma DevC++, no Windows.Abra o arquivo Mikefile.cpp e copile:
 
     make
     
