@@ -67,8 +67,30 @@ void Funcoes::opcao1b(){
 	}
 }
 
+struct compras{
+	char alimento;
+	int quantidade;
+	compras() = default;
+	compras(char alimento, int quantidade) : alimento(alimento), quantidade(quantidade); {}
+};
+
+struct supermercado{
+	char nomes;
+	supermercado() = default;
+	supermercado(char nomes): nomes(nomes);{}
+}
+
+struct precos{
+	float preco;
+	precos() = default;
+	precos(float preco):preco(preco);{}
+};
+
 void Funcoes::opcao1c(){
-	//não entendi
+	List<compras>L1;
+	List<supermercado>L2;
+	List<precos>L3;
+	
 }
 
 void Funcoes::opcao2a(){
@@ -105,7 +127,9 @@ void Funcoes::opcao2c(){
 }
 
 void Funcoes::opcao3a(){
-	//não entendi nada
+	Fila<string>F1;
+	Fila<string>Fresultante;
+	
 }
 
 void Funcoes::opcao3b(){
