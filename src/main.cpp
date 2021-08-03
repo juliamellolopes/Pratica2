@@ -8,6 +8,7 @@ using namespace std;
 
 int main(){
 	
+	cout << "\n\t---------INICIALIZANDO PROGRAMA-----------" << endl;
 	Menu m;
 	m.menu();
 	
