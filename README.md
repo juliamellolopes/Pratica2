@@ -1,7 +1,8 @@
 <h1 align="center">Pratica Nº2-TRABALHO LISTA, PILHA, FILA</h1>
-Neste trabalho teremos implementação de quatro questões de algoritmos, onde seu   
+<p Neste trabalho teremos a implementação de quatro questões de algoritmos utilizando as estruturas de Lista Pilha e Fila. </p>
+
 <h4 align="center"> 
-	🚧  React Select Em construção...  🚧
+	🚧 Em construção...  🚧
 </h4>
 
 
