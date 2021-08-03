@@ -154,7 +154,16 @@ void Funcoes::opcao2c(){
 		P.push(rand%100);
 		pP = pP->prox;
 	}
-	
+	int x;
+	for(int i = 0; i < 20; i++){
+		x = P->dado;
+		cout << " Co-Primos de " << x << endl;
+		cout << "{";
+		for(int i = 0; i =< x ;i++){
+			cout << " " << i;
+		}
+		cout << "}";
+	}
 }
 
 struct tuple{
