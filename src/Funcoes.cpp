@@ -43,7 +43,7 @@ void Funcoes::opcao1b(){
 		pL1 = pL1->prox;
 		pl2 = pL2->prox;
 	}
-	int num = rand%12+1;
+	int num = rand%13;
 	for(int i = 0; i < 3; i++){
 		cout << "\n{ " << L1->HEAD.dado << ", " << L2->HEAD.dado << "}";
 	}
