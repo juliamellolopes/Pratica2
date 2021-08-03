@@ -72,19 +72,19 @@ struct compras{
 	char alimento;
 	int quantidade;
 	compras() = default;
-	compras(char alimento, int quantidade) : alimento(alimento), quantidade(quantidade); {}
+	compras(char alimento, int quantidade) : alimento(alimento), quantidade(quantidade) {}
 };
 
 struct supermercado{
 	char nomes;
 	supermercado() = default;
-	supermercado(char nomes): nomes(nomes);{}
+	supermercado(char nomes): nomes(nomes){}
 }
 
 struct precos{
 	float preco;
 	precos() = default;
-	precos(float preco):preco(preco);{}
+	precos(float preco):preco(preco){}
 };
 
 void Funcoes::opcao1c(){
@@ -144,7 +144,7 @@ void Funcoes::opcao2b(){
 struct coprimos{
 	Pilha<int>CoPrimos;
 	coprimos() = default;
-	coprimos(Pilha CoPrimos) :CoPrimos(CoPrimos);{}
+	coprimos(Pilha CoPrimos) :CoPrimos(CoPrimos){}
 };
 
 void Funcoes::opcao2c(){
@@ -157,18 +157,26 @@ void Funcoes::opcao2c(){
 	
 }
 
+struct tuple{
+	int x;
+	int y;
+	int k;
+	tuple() = default;
+	tuple(int x, int y, in k) : x(x), y(y), k(k) {}
+};
+
 void Funcoes::opcao3a(){
-	Fila<string>F1;
+	Fila<tuple>F1;
 	Fila<string>FResultante;
 	int K;
 	nope<int> *pF1 = F1.HEAD;
 	for(int = 0; i < 5; i++){
-		F1.push(pow((x+y),i));	
+		F1.push({x,y,i});	
 		pF1 = pF1->prox;	
 	}
 	nope<int> *pFR = FResultante.HEAD;
 	for(int = 0; i < 5; i++){
-		FResultante.push(F1->dado);	
+		FResultante.push(pow((F1->x + F1->y),Fi->k));	
 		pFR = pFR->prox;	
 	}
 	cout << endl;
@@ -183,5 +191,5 @@ void Funcoes::opcao3b(){
 }
 
 void Funcoes::opcao4(){
-	
+	//fazer
 }
