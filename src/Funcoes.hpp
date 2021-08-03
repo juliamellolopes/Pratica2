@@ -20,6 +20,19 @@ struct triple{
 	tuple() = default;
 	tuple(int x, int y, in k) : x(x), y(y), k(k) {}
 };
+
+struct cliente{
+	string CPF;
+	List<produtos>L;
+};
+
+struct produtos{
+	char nome;
+	float preco;
+	produtos() = default;
+	produtos(char nome, float preco): nome(nome), preco(preco){}
+};
+
 class Funcoes
 {
 	public:

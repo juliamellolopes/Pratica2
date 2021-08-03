@@ -62,25 +62,6 @@ void Funcoes::opcao1b(){
 	}
 }
 
-struct compras{
-	char alimento;
-	int quantidade;
-	compras() = default;
-	compras(char alimento, int quantidade) : alimento(alimento), quantidade(quantidade) {}
-};
-
-struct supermercado{
-	char nomes;
-	supermercado() = default;
-	supermercado(char nomes): nomes(nomes){}
-}
-
-struct precos{
-	float preco;
-	precos() = default;
-	precos(float preco):preco(preco){}
-};
-
 void Funcoes::opcao1c(){
 	List<compras>L1;
 	List<supermercado>L2;
@@ -180,18 +161,6 @@ void Funcoes::opcao3a(){
 void Funcoes::opcao3b(){
 	//não entendi
 }
-
-struct cliente{
-	string CPF;
-	List<produtos>L;
-};
-
-struct produtos{
-	char nome;
-	float preco;
-	produtos() = default;
-	produtos(char nome, float preco): nome(nome), preco(preco){}
-};
 
 void Funcoes::opcao4(){
 	Fila<cliene>F;
