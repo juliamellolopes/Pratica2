@@ -129,7 +129,7 @@ void Funcoes::opcao2c(){
 void Funcoes::opcao3a(){
 	Fila<string>F1;
 	Fila<string>Fresultante;
-	
+	//tenho que fazer
 }
 
 void Funcoes::opcao3b(){
