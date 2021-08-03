@@ -15,6 +15,7 @@ Agoritimos e Estrutudas de Dados
 <!--ts-->
    * [Copilação](#Copilação)
    * [Questão1](#Questão1)
+   * [Questão2]
   
 <!--te-->
 
