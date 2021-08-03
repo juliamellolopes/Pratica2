@@ -15,15 +15,18 @@ Agoritimos e Estrutudas de Dados
 <!--ts-->
    * [Copilação](#Copilação)
    * [Questão1](#Questão1)
-   * [Questão2]
-  
+   * [Questão2](#Questão2)
+   * [Questão3](#Questão3)
+   * [Questão4](#Questão4)
 <!--te-->
 
- <a href="#Copilação"></a> 
- <a href="#Questão 1">Roadmap</a> 
- <a href="#Questão 2">Tecnologias</a> 
- <a href="#Questão 3">Contribuição</a> 
- <a href="#Questão 4">Licença</a> 
+### Copilação
+
+Programação feita em C++, na plataforma DevC++, no Windows.Abra o aruivo Mikefile.cpp e copile:
+<h1 align>
+    make
+    make run	
+</h1
 
 ### Questão1
 
@@ -31,13 +34,7 @@ Agoritimos e Estrutudas de Dados
 - [x] Cadastro de cliente
 - [ ] Cadastro de produtos
 
-### Pré-requisitos
-
-Abra o aruivo Mikefile.cpp e copile
-<h1>
-    make
-    make run	
-</h1>
+>
 
 
 Algoritimo resolvido em C++, na plataforma DevC++.
