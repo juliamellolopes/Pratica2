@@ -1,4 +1,4 @@
-#Pratica Nº2-TRABALHO LISTA, PILHA, FILA
+<h1 align="center">Pratica Nº2-TRABALHO LISTA, PILHA, FILA</h1>
 
 Agoritimos e Estrutudas de Dados
 
