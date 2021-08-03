@@ -12,7 +12,7 @@ Neste trabalho teremos a implementação de quatro questões de algoritmos utili
 
 ### Copilação
 
- Programação feita em C++, na plataforma DevC++, no Windows 10.Abra o arquivo Mikefile.cpp e copile:
+ Programação feita em C++, na plataforma DevC++, no Windows 10. Abra o arquivo Mikefile.cpp e copile:
 	
     make
     make run
