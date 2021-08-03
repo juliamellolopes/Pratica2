@@ -13,14 +13,17 @@
 ### Copilação
 
 Programação feita em C++, na plataforma DevC++, no Windows.Abra o aruivo Mikefile.cpp e copile:
-<h2
+
     make
+    
     make run
 >
 ### Questão1
+	
  <h4 align> 
 	Em construção...  🚧
 </h4>
+	
 - [x] Cadastro de usuário
 - [x] Cadastro de cliente
 - [ ] Cadastro de produtos
