@@ -1,6 +1,6 @@
 <h1 align="center">Pratica Nº2-TRABALHO LISTA, PILHA, FILA</h1>
 
-<p Neste trabalho teremos a implementação de quatro questões de algoritmos utilizando as estruturas de Lista Pilha e Fila. </p>
+<h2 Neste trabalho teremos a implementação de quatro questões de algoritmos utilizando as estruturas de Lista Pilha e Fila. </h2>
 
 <h4 align="center"> 
 	🚧 Em construção...  🚧
@@ -12,14 +12,13 @@
 <p align="center"> lib para construir interfaces do usuário com componentes reutilizáveis</p>
 Agoritimos e Estrutudas de Dados
 
+###Sumário
 
  <a href="#Copilação"></a> 
  <a href="#Questão 1">Roadmap</a> 
  <a href="#Questão 2">Tecnologias</a> 
  <a href="#Questão 3">Contribuição</a> 
  <a href="#Questão 4">Licença</a> 
-
-
 
 ### Features
 
@@ -29,9 +28,12 @@ Agoritimos e Estrutudas de Dados
 
 ### Pré-requisitos
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Abra o aruivo Mikefile.cpp e copile
+<h1>
+    make
+    make run	
+</h1>
+
 
 Algoritimo resolvido em C++, na plataforma DevC++.
 
