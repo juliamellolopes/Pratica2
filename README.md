@@ -1,12 +1,11 @@
 <h1 align="center">Pratica Nº2-TRABALHO LISTA, PILHA, FILA</h1>
+
 <p Neste trabalho teremos a implementação de quatro questões de algoritmos utilizando as estruturas de Lista Pilha e Fila. </p>
 
 <h4 align="center"> 
 	🚧 Em construção...  🚧
 </h4>
 
-
-<p align="center">Escrever uma breve descrição</p>
 <h1 align="center">
     React</a>
 </h1>
@@ -14,12 +13,12 @@
 Agoritimos e Estrutudas de Dados
 
 
- <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
+ <a href="#Copilação"></a> 
+ <a href="#Questão 1">Roadmap</a> 
+ <a href="#Questão 2">Tecnologias</a> 
+ <a href="#Questão 3">Contribuição</a> 
+ <a href="#Questão 4">Licença</a> 
+
 
 
 ### Features
