@@ -55,10 +55,24 @@ A resolução do problema 1a, 1b e 1c se encontram dentro da pasta src no arquiv
 	void opcao1c();	
 
 ### Questão2
-<h4 align> 
-	 Em construção...  🚧
-</h4>
 
+Na Questão 2 foi implementado herança para poder aproveitar a estrutura da Lista e so foi ncessário fazer algumas mudanças na função Pop() em Fila.cpp. A classe Fila.hpp e Fila.cpp ficam com a estrutura para utilização de uma fila. A baixo podemos ver como ficou a estrutura:
+
+	template <typename T> void Fila<T>::pop(){
+		if (!this->HEAD)
+		    return;
+	    	node<T> *pNode = this->HEAD;
+	    	this->HEAD = this->HEAD->prox;
+		delete pNode;
+		pNode = NULL;
+		this->TAM--;
+	}
+As resoluções das questões do problemas 2a, 2b e 2c se encontam na pasta src nos arquivos Funcoes.hpp e Funcoes.cpp. É possivel encontrar as inplementações nas funções a baixo:
+
+	void opcao2a();
+	void opcao2b();
+	void opcao2c();
+	
 ### Questão3
 <h4 align> 
 	Em construção...  🚧
