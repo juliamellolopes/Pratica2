@@ -195,6 +195,66 @@ void Funcoes::opcao3b(){
 	//não entendi
 }
 
+struct cliente{
+	string CPF;
+	List<produtos>L;
+};
+
+struct produtos{
+	char nome;
+	float preco;
+	produtos() = default;
+	produtos(char nome, float preco): nome(nome), preco(preco){}
+};
+
 void Funcoes::opcao4(){
-	//fazer
+	Fila<cliene>F;
+	Pilha<float>P;
+	List<produtos>L;
+	string CPF;
+	char nome;
+	float preco, somador = faturamento = 0;
+	int vol;
+	nope<int> pF = F.HEAD;
+	nope<int> pL = L.HEAD;
+	nope<int> pP = P.HEAD;
+	for(int i = 0; i < 10; i++){
+		cout << "Informe o numero de volumes: " << endl;
+		cin >> vol;
+		if(vol =< 10){
+			cout << "Informre o CPF: ";
+			cin >> CPF;
+			for(int j = 0; j < vol; i++){
+				cout << "Informe o nome do produto: " << endl;
+				cin >> nome;
+				cout << "Informe o preço do produto: " << endl;
+				cin >> preco;
+				somador += preco;
+				L.push({nome, preco});
+				pL = pL->prox;
+			}
+			F.push({CPF, L->dado});
+			pF = pF->prox;
+			P.push(somador);
+			pP = pP->prox;
+		}else{
+			cout << "VOLUME DE PRODUTOS MAIOR QUE O PERMITIDO!" << endl;
+		}
+	} 
+	cout << "\n\tCLIENTES DO DIA:" << endl;
+	for(int i = 0; i < 10; i++){
+		cout << "[i+1]Cpf: " << F.cpf << endl;
+		for(int j = 0; j < 10; j++){
+			cout << "[i+1]: " << F.L->dado << endl;
+			pL = pL->prox;
+		}
+		pF = pF->prox;
+		cout << "\nValor total: " << P->dado;
+		pP = pP->prox;
+	}
+	for(int i = 0; i < 10; i++){
+		faturamento +=P->dado;
+		pP = pP->prox;
+	}
+	cout << "\nFATURAMENTO DO DIA: " << faturanmento;
 }

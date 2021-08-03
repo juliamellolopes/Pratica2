@@ -24,7 +24,12 @@ void Menu::opcao2(){
 }
 
 void Menu::questao4(){
-	//questão 4
+	cout << "Questão 4. Um programa de caixa de 10 volumes, onde tera uma fila de clientes, uma lista de produtos e uma pilha de notas fiscais.";
+	cout << "Sera feita uma Fila com o CPF do cliente, uma Lista com o nome dos produtos e seus preços e uma PIlha com o valor da nota fiscal das compra.";
+	cout << "O programa deve imitar uma caixa de 10 operações e no final mostrar a Fila, Lista e Pilha e o faturameno do dia." << endl;
+	cout << "Deseja iniciar o programa?"<< endl;
+	cout << "1.Sim" << endl;
+	cout << "2.Não" << endl;
 }
 
 void Menu::menu(){
@@ -38,7 +43,7 @@ void Menu::menu(){
 			case 1:{ 
 				me.opcao1();
 				cin >> al;
-				while(al!=d){
+				while(al!=4){
 					switch(al){
 						case 1:{
 							f.opcao1a();
@@ -62,7 +67,7 @@ void Menu::menu(){
 			}case 2:{
 				me.opcao1();
 				cin >> al;
-				while(al!=d){
+				while(al!=4){
 					switch(al){
 						case 1:{
 							f.opcao2a();
@@ -87,15 +92,15 @@ void Menu::menu(){
 			}case 3:{
 				me.opcao2();
 				cin >> al;
-				while(al!=d){
+				while(al!=3){
 					switch(al){
-						case a:{
+						case 1:{
 							f.opcao3a();
 						break;
-						}case b:{
+						}case 2:{
 							
 						break;
-						}case c:{
+						}case 3:{
 							cout << "\n\nSaindo da questão!!";
 							break;
 						}default:{
@@ -103,10 +108,25 @@ void Menu::menu(){
 						break;
 						}
 					}
-				};
+				}
 			break;
 			}case 4:{
 					me.questao4();
+					cin >> al;
+					while(al!=2){
+						switch(al){
+							case 1:{
+								
+							break;
+							}case 2:{
+								cout << "\n\nSaindo da questão!!";
+								break;
+							}default:{
+								cout << "Opção inálida";
+							break;
+							}
+						}
+					}
 				break;
 			}case 5:{
 				cout << "\n\nSaindo do programa!!";
