@@ -1,6 +1,7 @@
 #ifndef __LISTIMP__
 #define __LISTIMP__
 #include "Lista.hpp"
+#include <iostream>
 
 using namespace std;
 
