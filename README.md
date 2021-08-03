@@ -1,6 +1,35 @@
-#Pratica Nº2-TRABALHO LISTA, PILHA, FILA
+<h1 align="center">Pratica Nº2-TRABALHO LISTA, PILHA, FILA</h1>
 
+<p align="center">Escrever uma breve descrição</p>
+<h1 align="center">
+    🔗 React</a>
+</h1>
+<p align="center">🚀 lib para construir interfaces do usuário com componentes reutilizáveis</p>
 Agoritimos e Estrutudas de Dados
+
+
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#roadmap">Roadmap</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#contribuicao">Contribuição</a> • 
+ <a href="#licenc-a">Licença</a> • 
+ <a href="#autor">Autor</a>
+
+<h4 align="center"> 
+	🚧  React Select 🚀 Em construção...  🚧
+</h4>
+
+### Features
+
+- [x] Cadastro de usuário
+- [x] Cadastro de cliente
+- [ ] Cadastro de produtos
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 Algoritimo resolvido em C++, na plataforma DevC++.
 
