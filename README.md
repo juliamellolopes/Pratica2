@@ -1,7 +1,8 @@
 <h1 align="center">Pratica Nº2-TRABALHO LISTA, PILHA, FILA</h1>
+
 <p align="center">Escrever uma breve descrição</p>
 <h1 align="center">
-    <a href="https://pt-br.reactjs.org/">🔗 React</a>
+    🔗 React</a>
 </h1>
 <p align="center">🚀 lib para construir interfaces do usuário com componentes reutilizáveis</p>
 Agoritimos e Estrutudas de Dados
