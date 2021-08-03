@@ -18,6 +18,7 @@ template <typename T> int List<T>::size() const noexcept{
 template <typename T> bool List<T>::isEmpty() const noexcept{
   return this->TAM == 0;
 }
+
 template <typename T> void List<T>::push(const T dado){
   if (this->isEmpty()){
     this->HEAD = new node<T>(dado);
@@ -31,6 +32,7 @@ template <typename T> void List<T>::push(const T dado){
     this->TAM++;
   }
 }
+
 template <typename T> void List<T>::pop(){
   if (!TAIL)
     return;
@@ -44,6 +46,7 @@ template <typename T> void List<T>::pop(){
   }
   this->TAM--;
 }
+
 template <typename T> List<T>::~List<T>(){
   while (HEAD != NULL) {
     this->pop();
