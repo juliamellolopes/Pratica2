@@ -1,8 +1,7 @@
 <h1 align="center">Pratica Nº2-TRABALHO LISTA, PILHA, FILA</h1>
+ Neste trabalho teremos a implementação de quatro questões de algoritmos utilizando as estruturas de Lista Pilha e Fila. 
 
-<h2 Neste trabalho teremos a implementação de quatro questões de algoritmos utilizando as estruturas de Lista Pilha e Fila. </h2>
-
-<h4 align="center"> 
+<h4 align> 
 	🚧 Em construção...  🚧
 </h4>
 
