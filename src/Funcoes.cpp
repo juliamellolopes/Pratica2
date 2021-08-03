@@ -141,12 +141,6 @@ void Funcoes::opcao2b(){
 	}
 }
 
-struct coprimos{
-	Pilha<int>CoPrimos;
-	coprimos() = default;
-	coprimos(Pilha CoPrimos) :CoPrimos(CoPrimos){}
-};
-
 void Funcoes::opcao2c(){
 	Pilha<int>P;
 	nope<int> *pP = P.HEAD;
@@ -157,12 +151,14 @@ void Funcoes::opcao2c(){
 	int x;
 	for(int i = 0; i < 20; i++){
 		x = P->dado;
+		pP = pP->prox;
 		cout << " Co-Primos de " << x << endl;
 		cout << "{";
 		for(int i = 0; i =< x ;i++){
-			cout << " " << i;
+			if(i % 2 != 0)
+				cout << " " << i;
 		}
-		cout << "}";
+		cout << "}" << endl;;
 	}
 }
 
