@@ -1,16 +1,6 @@
 <h1 align="center">Pratica Nº2-TRABALHO LISTA, PILHA, FILA</h1>
  Neste trabalho teremos a implementação de quatro questões de algoritmos utilizando as estruturas de Lista Pilha e Fila. 
-
-<h4 align> 
-	🚧 Em construção...  🚧
-</h4>
-
-<h1 align="center">
-    React</a>
-</h1>
-<p align="center"> lib para construir interfaces do usuário com componentes reutilizáveis</p>
-Agoritimos e Estrutudas de Dados
-
+ 
 ### Sumário
 <!--ts-->
    * [Copilação](#Copilação)
@@ -29,17 +19,27 @@ Programação feita em C++, na plataforma DevC++, no Windows.Abra o aruivo Mikef
 </h1
 
 ### Questão1
-
+ <h4 align> 
+	Em construção...  🚧
+</h4>
 - [x] Cadastro de usuário
 - [x] Cadastro de cliente
 - [ ] Cadastro de produtos
 
->
+### Questão2
+<h4 align> 
+	 Em construção...  🚧
+</h4>
 
+### Questão3
+<h4 align> 
+	Em construção...  🚧
+</h4>
 
-Algoritimo resolvido em C++, na plataforma DevC++.
-
-Arquivo Mikefile para rodar o codigo e pasta src com o codigo.
+### Questão4
+<h4 align> 
+	 Em construção...  🚧
+</h4>
 
 PARA COPILAR:
 
