@@ -116,7 +116,7 @@ void Menu::menu(){
 					while(al!=2){
 						switch(al){
 							case 1:{
-								
+								f.opcao4();
 							break;
 							}case 2:{
 								cout << "\n\nSaindo da questão!!";
