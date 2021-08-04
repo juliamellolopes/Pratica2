@@ -19,13 +19,15 @@ Neste trabalho teremos a implementação de quatro questões de algoritmos utili
     make run
     
 ### Inicialização
+
+Ao inicializar o programa sera impresso na tela um menu com opções das questões do trabalho como é mostrado a baixo:
 <h4 align> 
 	Em construção...  🚧
 </h4>
-Ao inicializar o programa sera impresso na tela um menu com opções das questões do trabalho como é mostrado a baixo:
 
 	//menu
-Ao você fazer sua escolha aparecerá outro menu correspondente a letra que vc 
+	
+Ao você fazer sua escolha aparecerá outro menu correspondente a letra que você deseja, dessa forma teremos um unico main para todos os problemas. 
 
 ### Questão1
 
@@ -129,7 +131,8 @@ As execuções das questões 3a e 3b se encontram na pasta src nos arquivos Func
 	void opcao3a();
 	void opcao3b();
 
-opcao3a().
+opcao3a().Criado duas filas, uma que vai armazenas o x, y e k de uma função e outra que sera a resultante da função elevada a k, depois é impresso a fila resultante.
+
 opcao3b().
 
 <h4 align> 
@@ -142,6 +145,7 @@ Na questão 4 foi criado um problema que imita um caixa de 10 volumes. Onde tera
 
 	void opcao4();
 
+No codigo sera cadastrado o CFP do cliente, o nome do produto e seu preço de uma Lista serão armazenados em uma Lista, em seguida, o valor da compra é armazenado em uma Pilha. No final sera impresso os cpfs de cada cliente que esteve, os produtos que comprou, o final do falor da compra e o faturamento do dia. Abaixo mosta como deve aparecer o final:
 
 <h4 align> 
 	Em construção...  🚧
