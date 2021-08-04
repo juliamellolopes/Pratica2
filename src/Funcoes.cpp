@@ -61,12 +61,75 @@ void Funcoes::opcao1b(){
 		cou << "\nO vencedor é L2" << endl;
 	}
 }
+struct produto{
+	int cod;
+	char nome;
+	int quant;
+	produto() = default;
+	produto(int cod, char nome, int quant):cod(cod),nome(nome),quant(quant){}
+};
+struct supermercado{
+	int id;
+	int cod;
+	supermercado() = default;
+	supermercado(int id, int cod): id(id),cod(cod){}
+};
+struct fornecedor{
+	int id;
+	int cod;
+	float valor;
+	fornecedor() = default;
+	fornecedor(int id,int cod,float valor): id(id), cod(cod), valor(valor){}
+};
 
 void Funcoes::opcao1c(){
-	List<compras>L1;
+	List<produto>L1;
 	List<supermercado>L2;
-	List<precos>L3;
-	
+	List<fornecedor>L3;
+	node<int> *pL1 = L1.HEAD;
+	node<int> *pL2 = L2.HEAD;
+	node<int> *pL3 = L3.HEAD;
+	//
+	for(int i = 0; i < 2; i++){
+		cout << "Informe o codigo do produto: " << endl;
+		cin >> cod;
+		cout << "Informe o nome do produto: " << endl;
+		cin >> nome;
+		cout << "Informe a quantidade do produto: " << endl;
+		cin >> quant;
+		L1.push({cod,nome, quant});
+		pL1 = pL1->prox;
+	}
+	//
+	for(int i = 0; i < 2; i++){
+		cout << "Informe o ID do supermercado: " << endl;
+		cin >> id;
+		cout << "Informe o codigo do produto: " << endl;
+		cin >> cod;
+		L2.push({id, cod});
+		pL2 = pL2->prox;
+	}
+	//
+	for(int i = 0; i < 2; i++){
+		cout << "Informe o ID do supermercado: " << endl;
+		cin >> id;
+		cout << "Informe o codigo do produto: " << endl;
+		cin >> cod;
+		cout << "Informe o valor do produto: " << endl;
+		cin >> valor;
+		L3.push({id,cod,valor});
+		pL3 = pL3->prox;
+	}
+	int aux;
+	int x;
+	for(int i = 0; i < 2; i++){
+		x = L1->cod;
+		pL1 = pL1->prox;
+		if(x == L2->cod){
+			if()
+			aux = i;
+		}
+	}
 }
 
 void Funcoes::opcao2a(){
