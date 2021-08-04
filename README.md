@@ -65,7 +65,9 @@ A resolução do problema 1a, 1b e 1c se encontram dentro da pasta src no arquiv
 	void opcao1c();	
 	
 opcao1a(). foi criado 3 listas, onde uma tera os numeros impares e outra os numeros pares, a terceira lista tera cada dado das duas listas anteriores na mesma posição.
+
 opcao1b(). foram criadas 2 listas de 3 possições cada, que são preenchidas com valores aleatórios de 1 a 13, é sorteado um valor aleatório de 1 a 13, esse numero sera subtraido de cada lavor em cada posição das listas, deopis é somado todos os valores das listas e a lista que tiver o maior valor ganha o jogo. 
+
 opcao1c().
 
 <h4 align> 
@@ -104,7 +106,9 @@ As resoluções das questões do problemas 2a, 2b e 2c se encontam na pasta src 
 	void opcao2c();
 	
 opcao2a(). sera requisitado uma função matematica do usuário, onde sera armazenada em uma string, depois sera separada os caracteres dos parênteses, para checar se esta com o numero ceto de parênteses sera usada uma pilha que empilha e desmpilha, no final se a pilha estiver vazia o numero de parênteses estara certo senão estara errado.
+
 opcao2b(). foi criada duas pilhas onde uma é preenchida por 10 valores e depois cada valor é passsado para a segunda pilha.
+
 opcao2c(). foi criada uma pila que vai receber numeros aleatórios, depois cada numero vai passar pelo for onde sera encontrado os co-primos e no final eles serão impressos na tela.
 
 ### Questão3
