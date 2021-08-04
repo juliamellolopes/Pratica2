@@ -63,7 +63,10 @@ A resolução do problema 1a, 1b e 1c se encontram dentro da pasta src no arquiv
 	void opcao1a();
 	void opcao1b();
 	void opcao1c();	
-No problema 1a foi criado 3 listas, onde uma tera os numeros impares e outra os numeros pares, a terceira lista tera cada dado das duas listas anteriores na mesma posição. No problema 1b foram criadas 2 listas de 3 possições cada, que são preenchidas com valores aleatórios de 1 a 13, é sorteado um valor aleatório de 1 a 13, esse numero sera subtraido de cada lavor em cada posição das listas, deopis é somado todos os valores das listas e a lista que tiver o maior valor ganha o jogo. Já no problema 1c...
+	
+opcao1a(). foi criado 3 listas, onde uma tera os numeros impares e outra os numeros pares, a terceira lista tera cada dado das duas listas anteriores na mesma posição.
+opcao1b(). foram criadas 2 listas de 3 possições cada, que são preenchidas com valores aleatórios de 1 a 13, é sorteado um valor aleatório de 1 a 13, esse numero sera subtraido de cada lavor em cada posição das listas, deopis é somado todos os valores das listas e a lista que tiver o maior valor ganha o jogo. 
+opcao1c().
 
 <h4 align> 
 	Em construção...  🚧
@@ -99,7 +102,10 @@ As resoluções das questões do problemas 2a, 2b e 2c se encontam na pasta src 
 	void opcao2a();
 	void opcao2b();
 	void opcao2c();
-Na questão 2a sera requisitado uma função matematica do usuário, onde sera armazenada em uma string, depois sera separada os caracteres dos parênteses, para checar se esta com o numero ceto de parênteses sera usada uma pilha que empilha e desmpilha, no final se a pilha estiver vazia o numero de parênteses estara certo senão estara errado. Já na questão 2b foi criada duas pilhas onde uma é preenchida por 10 valores e depois cada valor é passsado para a segunda pilha. Na questão 2c foi criada uma pila que vai receber numeros aleatórios, depois cada numero vai passar pelo for onde sera encontrado os co-primos e no final eles serão impressos na tela.
+	
+opcao2a(). sera requisitado uma função matematica do usuário, onde sera armazenada em uma string, depois sera separada os caracteres dos parênteses, para checar se esta com o numero ceto de parênteses sera usada uma pilha que empilha e desmpilha, no final se a pilha estiver vazia o numero de parênteses estara certo senão estara errado.
+opcao2b(). foi criada duas pilhas onde uma é preenchida por 10 valores e depois cada valor é passsado para a segunda pilha.
+opcao2c(). foi criada uma pila que vai receber numeros aleatórios, depois cada numero vai passar pelo for onde sera encontrado os co-primos e no final eles serão impressos na tela.
 
 ### Questão3
 
@@ -118,7 +124,10 @@ As execuções das questões 3a e 3b se encontram na pasta src nos arquivos Func
 	
 	void opcao3a();
 	void opcao3b();
-	
+
+opcao3a().
+opcao3b().
+
 <h4 align> 
 	Em construção...  🚧
 </h4>
@@ -128,6 +137,7 @@ As execuções das questões 3a e 3b se encontram na pasta src nos arquivos Func
 Na questão 4 foi criado um problema que imita um caixa de 10 volumes. Onde tera uma fila de clientes, uma lista de produtos e uma pilha de notas fiscais. Sera feita uma Fila com o CPF do cliente, uma Lista com o nome dos produtos e seus respectivos preços e uma Pilha com o valor da nota fiscal das compra. O programa foi limitado a um caixa de 10 operações e no final deve mostrar a Fila, Lista e Pilha e o faturameno do dia. A resolução do problema se encontra em src, Funcoes.cpp e Funcoes.hpp, e tem sua execusão na função abaixo:
 
 	void opcao4();
+
 
 <h4 align> 
 	Em construção...  🚧
