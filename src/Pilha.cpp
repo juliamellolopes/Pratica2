@@ -8,8 +8,8 @@ template <typename T> void Pilha<T>::push(const T dado){
 	if(this->isEmpty()){
         this->HEAD = this->TAIL = new node <T>(dado);
 	}else{
-    	this->HEAD->ant = new node<T>(dado,NULL,this->HEAD)    ;
-    	this->HEAD = this->HEAD->ant;
+    	this->HEAD->ant = new node<T>(dado);
+    	this->HEAD->ant->prox = this->HEAD;
     }
     this->TAM++;
 }
