@@ -120,14 +120,16 @@ void Funcoes::opcao1c(){
 		L3.push({id,cod,valor});
 		pL3 = pL3->prox;
 	}
+	//cout << "quantos produtos vc deseja passar?" << endl;
+	for(int i = 0; i < 2; i++){
+		cout << "Informe o nome o produto: " << endl;
+		cin >> nome;
+		
+	}
 	int aux;
 	int x;
 	for(int i = 0; i < 2; i++){
-		x = L1->cod;
-		pL1 = pL1->prox;
-		if(x == L2->cod){
-			if()
-			aux = i;
+		
 		}
 	}
 }
@@ -216,8 +218,8 @@ void Funcoes::opcao3a(){
 	}
 	cout << endl;
 	for(int i = 0; i < 10; i++){
-		cout << " " << pP2->dado << endl;
-	    pP2 = pP2->prox;
+		cout << " " << FResultante->dado << endl;
+	    pFR = pFR->prox;
 	}
 }
 
