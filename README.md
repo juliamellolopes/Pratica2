@@ -1,5 +1,5 @@
 <h1 align="center">Pratica Nº2-TRABALHO LISTA, PILHA, FILA</h1>
-Neste trabalho teremos a implementação de quatro questões de algoritmos utilizando as estruturas de Lista, Pilha e Fila. É utilizado uma main.cpp para chamar uma classe Menu.hpp que de acordo com sua escolha alternativa ira chamar a função correspondente na classe Funcoes.hpp, lá se encontra as respectivas soluções para cada questão do trabalho utilizando as classes Lista, Fila e Pilha. Toda estrutura de programação se encontra na pasta src.
+Neste trabalho teremos a implementação de quatro questões de algoritmos utilizando as estruturas de Lista, Pilha e Fila. É utilizado uma main.cpp para chamar uma classe Menu.hpp, que de acordo com sua escolha, a alternativa ira chamar a função correspondente na classe Funcoes.hpp, lá se encontra as respectivas soluções para cada questão do trabalho utilizando as classes Lista, Fila e Pilha. Toda estrutura de programação se encontra na pasta src.
  
 ### Sumário
 <!--ts-->
@@ -22,7 +22,10 @@ Neste trabalho teremos a implementação de quatro questões de algoritmos utili
 <h4 align> 
 	Em construção...  🚧
 </h4>
-Ao inicializar o programa sera impresso na tela um menu com opções de qual questões você deseja, uma vez nele só
+Ao inicializar o programa sera impresso na tela um menu com opções das questões do trabalho como é mostrado a baixo:
+
+	//menu
+Ao você fazer sua escolha aparecerá outro menu correspondente a letra que vc 
 
 ### Questão1
 
@@ -74,8 +77,8 @@ Na Questão 2 foi implementado herança para poder aproveitar a estrutura da Lis
 		if(this->isEmpty()){
 		this->HEAD = this->TAIL = new node <T>(dado);
 		}else{
-		this->HEAD->ant = new node<T>(dado,NULL,this->HEAD);
-		this->HEAD = this->HEAD->ant;
+		this->HEAD->ant = new node<T>(dado);
+		this->HEAD->ant->prox = this->HEAD;
 	    }
 	    this->TAM++;
 	}
