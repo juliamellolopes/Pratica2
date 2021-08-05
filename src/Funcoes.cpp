@@ -82,16 +82,27 @@ struct fornecedor{
 	fornecedor(int id,int cod,float valor): id(id), cod(cod), valor(valor){}
 };
 
+
 void Funcoes::opcao1c(){
 	List<produto>L1;
 	List<supermercado>L2;
 	List<fornecedor>L3;
+	List<fornecedor>L4;
 	node<int> *pL1 = L1.HEAD;
 	node<int> *pL2 = L2.HEAD;
 	node<int> *pL3 = L3.HEAD;
-	//
-	for(int i = 0; i < 2; i++){
-		cout << "Informe o codigo do produto: " << endl;
+	node<int> *pL4 = L4.HEAD;
+	int n = 0;
+	int minV = 0
+	nd = list.head
+	minV = nd.value
+	nd = nd->next
+	int aux1, aux2, aux3, x;
+	
+	cout << "\nInforme o numero de cadastros de produtos: " << endl;
+	cin >> n;
+	for(int i = 0; i < n; i++){
+		cout << "\nInforme o codigo do produto: " << endl;
 		cin >> cod;
 		cout << "Informe o nome do produto: " << endl;
 		cin >> nome;
@@ -100,18 +111,19 @@ void Funcoes::opcao1c(){
 		L1.push({cod,nome, quant});
 		pL1 = pL1->prox;
 	}
-	//
-	for(int i = 0; i < 2; i++){
-		cout << "Informe o ID do supermercado: " << endl;
+	cout << "\nInforme o numero de cadastros de supermercados: " << endl;
+	cin >> n;
+	for(int i = 0; i < n; i++){
+		cout << "\nInforme o ID do supermercado: " << endl;
 		cin >> id;
 		cout << "Informe o codigo do produto: " << endl;
 		cin >> cod;
 		L2.push({id, cod});
 		pL2 = pL2->prox;
 	}
-	//
-	for(int i = 0; i < 2; i++){
-		cout << "Informe o ID do supermercado: " << endl;
+	cout << "Iniciando cadastro de preços " << endl;
+	for(int i = 0; i < n; i++){
+		cout << "\nInforme o ID do supermercado: " << endl;
 		cin >> id;
 		cout << "Informe o codigo do produto: " << endl;
 		cin >> cod;
@@ -120,17 +132,40 @@ void Funcoes::opcao1c(){
 		L3.push({id,cod,valor});
 		pL3 = pL3->prox;
 	}
-	//cout << "quantos produtos vc deseja passar?" << endl;
-	for(int i = 0; i < 2; i++){
+	cout << "quantos produtos vc deseja passar?" << endl;
+	cin >> n;
+	for(int i = 0; i < n; i++){
 		cout << "Informe o nome o produto: " << endl;
 		cin >> nome;
-		
+		for(int j = 0; j < 2; j++){
+			x = L1->nome;
+			pL1 = pL1->prox;
+			if(nome == x){
+				aux1 = L1->cod;
+			}
+		}	
+		for(int j = 0; j < 2; j++){
+			x = L2->cod;
+			pL2 = pL2->prox;
+			if(aux1 == x){
+				aux2 = L2->id;
+				x = L3->cod;
+				pL3 = pL3->prox;
+				if(aux2 == x){
+					foreach(){
+   						minV = nd.value < minV ? nd.value : minV
+   						nd = nd->next
+					}
+					aux3 = minV;
+				}
+			}
+		L4.push({aux2,aux1,aux3});	
+		pL4 = pL4->prox;
 	}
-	int aux;
-	int x;
+	cout << "\n\tLISTA FINAL" << endl;
 	for(int i = 0; i < 2; i++){
-		
-		}
+		cout << "{ " << L4->id << ", " << L4->cod << " " << L4->valor << "}" << endl;
+		pL4 = pL4->prox;
 	}
 }
 
