@@ -70,11 +70,7 @@ opcao1a(). foi criado 3 listas, onde uma tera os numeros impares e outra os nume
 
 opcao1b(). foram criadas 2 listas de 3 possições cada, que são preenchidas com valores aleatórios de 1 a 13, é sorteado um valor aleatório de 1 a 13, esse numero sera subtraido de cada lavor em cada posição das listas, deopis é somado todos os valores das listas e a lista que tiver o maior valor ganha o jogo. 
 
-opcao1c().
-
-<h4 align> 
-	Em construção...  🚧
-</h4>
+opcao1c(). essa questão foi necessário criar 4 listas diferentes, uma para cadastro de produtos, uma de supermercados com seus produtos, outra com id do supermercado, codigo do produto e seu valor, e uma quarta que sera final, com o id, codigo e menor valor do produto.
 
 ### Questão2
 
