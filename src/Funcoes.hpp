@@ -33,6 +33,29 @@ struct produtos{
 	produtos(char nome, float preco): nome(nome), preco(preco){}
 };
 
+struct produto{
+	int cod;
+	char nome;
+	int quant;
+	produto() = default;
+	produto(int cod, char nome, int quant):cod(cod),nome(nome),quant(quant){}
+};
+
+struct supermercado{
+	int id;
+	int cod;
+	supermercado() = default;
+	supermercado(int id, int cod): id(id),cod(cod){}
+};
+
+struct fornecedor{
+	int id;
+	int cod;
+	float valor;
+	fornecedor() = default;
+	fornecedor(int id,int cod,float valor): id(id), cod(cod), valor(valor){}
+};
+
 class Funcoes
 {
 	public:

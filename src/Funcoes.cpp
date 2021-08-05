@@ -61,27 +61,6 @@ void Funcoes::opcao1b(){
 		cou << "\nO vencedor é L2" << endl;
 	}
 }
-struct produto{
-	int cod;
-	char nome;
-	int quant;
-	produto() = default;
-	produto(int cod, char nome, int quant):cod(cod),nome(nome),quant(quant){}
-};
-struct supermercado{
-	int id;
-	int cod;
-	supermercado() = default;
-	supermercado(int id, int cod): id(id),cod(cod){}
-};
-struct fornecedor{
-	int id;
-	int cod;
-	float valor;
-	fornecedor() = default;
-	fornecedor(int id,int cod,float valor): id(id), cod(cod), valor(valor){}
-};
-
 
 void Funcoes::opcao1c(){
 	List<produto>L1;
@@ -258,8 +237,17 @@ void Funcoes::opcao3a(){
 	}
 }
 
+struct dupla{
+	int at;
+	int vet[5];
+	
+};
+
 void Funcoes::opcao3b(){
-	//não entendi
+	Fila<>F1;
+	Fila<>F2;
+	nope<int> *pF1 = F1.HEAD;
+	nope<int> *pF2 = F2.HEAD;
 }
 
 void Funcoes::opcao4(){
