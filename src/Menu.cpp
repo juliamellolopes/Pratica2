@@ -52,7 +52,7 @@ void Menu::menu(){
 							f.opcao1b();
 						break;
 						}case 3:{
-							
+							f.opcao1c();
 						break;
 						}case 4:{
 							cout << "\n\nSaindo da questão!!";
