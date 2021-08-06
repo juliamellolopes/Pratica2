@@ -10,20 +10,25 @@ void Funcoes::opcao1a(){
 	List<int> par;
   	List<int> impar;
 	List<tuple> tuplas;
+	
 	for (int i = 0; i < 200; i++) {
 		if (i % 2 == 0)
 		 	par.push(i);
 	   	else
 	      	impar.push(i);
 	}
+	
 	node<int> *pIm = impar.HEAD;
  	node<int> *pPar = par.HEAD;
+ 	
 	for (int i = 0; i < 100; i++) {
 	    tuplas.push({pPar->dado, pIm->dado});
 	    pIm = pIm->prox;
 	    pPar = pPar->prox;
 	}
+	
 	node<tuple> *ptuple = tuplas.HEAD;
+	
 	for (int i = 0; i < 100; i++) {
 	    cout << "{ " ptuple->dado.n1 << ", " << ptuple->dado.n2 << "}";
 	    ptuple = ptuple->prox;
@@ -37,24 +42,31 @@ void Funcoes::opcao1b(){
 	int somaL2 = 0;
 	node<int> *pL1 = L1.HEAD;
 	node<int> *pL2 = L2.HEAD;
+	
 	for(int i = 0; i < 3; i++){
 		L1.push(rand%13);
 		L2.push(rand%13);
 		pL1 = pL1->prox;
 		pl2 = pL2->prox;
 	}
+	
 	int num = rand%13;
+	
+	cout << endl;
 	for(int i = 0; i < 3; i++){
-		cout << "\n{ " << L1->HEAD.dado << ", " << L2->HEAD.dado << "}";
+		cout << "{ " << L1->HEAD.dado << ", " << L2->HEAD.dado << "}";
 	}
+	
 	for(int i = 0; i < 3; i++){
 		L1->HEAD.dado - num;
 		L2->HEAD.dado - num;
 	}
+	
 	for(int i = 0; i < 3; i++){
 		somaL1 += L1->HEAD.dado;
 		somaL2 += L2->HEAD.dado;
 	}
+	
 	if(somaL1 > somaL2){
 		cout << "\nO vencedor é L1" << endl;
 	}else{
@@ -140,6 +152,7 @@ void Funcoes::opcao1c(){
 			}
 		L4.push({aux2,aux1,aux3});	
 		pL4 = pL4->prox;
+	    }
 	}
 	cout << "\n\tLISTA FINAL" << endl;
 	for(int i = 0; i < 2; i++){
@@ -150,10 +163,12 @@ void Funcoes::opcao1c(){
 
 void Funcoes::opcao2a(){
 	char* str;
-	cout << "Informe a expressão matematica:" << endl;
-	cin >>  str;
 	Pilha<char>P1;
 	nope<int> *pP1 = P1.HEAD;
+	
+	cout << "Informe a expressão matematica:" << endl;
+	cin >>  str;
+	
 	for(int i = 0; i < sizeof(str)/sizeof(char*); i++){
 		if(str[i] == '(' ){
 			P1.push(str[i]);
@@ -163,11 +178,13 @@ void Funcoes::opcao2a(){
 			pP1 = pP1->prox;
 		}
 	}
+	
 	cout << endl;
 	for(int i = 0; i < 10; i++){
-		cout << " " << pP1->dado << endl;
+		cout << " " << P1->HEAD.dado << endl;
 	    pP1 = pP1->prox;
 	}
+	
 	if(P1.HEAD == NULL){
 		cout << "\n\nExpressão com parênteses CORRETO!" << endl;
 	}else{
@@ -179,18 +196,22 @@ void Funcoes::opcao2b(){
 	Pilha<int>P1;
 	Pilha<int>P2;
 	nope<int> *pP1 = P1.HEAD;
+	
 	for(int i = 0; i < 10; i++){
 		P1.push(i);
 		pP1 = pP1->prox;
 	}
+	
 	nope<int> *pP2 = P2.HEAD;
+	
 	for(int i = 0; i < 10; i++){
 		P2.push(P1->HEAD.dado)
 		pP2 = pP2->prox;
 	}
+	
 	cout << endl;
 	for(int i = 0; i < 10; i++){
-		cout << " " << P2->dado << endl;
+		cout << " " << P2->HEAD.dado << endl;
 	    pP2 = pP2->prox;
 	}
 }
@@ -198,13 +219,16 @@ void Funcoes::opcao2b(){
 void Funcoes::opcao2c(){
 	Pilha<int>P;
 	nope<int> *pP = P.HEAD;
+	
 	for(int i = 0; i < 20; i++){
 		P.push(rand%100);
 		pP = pP->prox;
 	}
+	
 	int x;
+	
 	for(int i = 0; i < 20; i++){
-		x = P->dado;
+		x = P->HEAD.dado;
 		pP = pP->prox;
 		cout << " Co-Primos de " << x << endl;
 		cout << "{";
@@ -221,15 +245,19 @@ void Funcoes::opcao3a(){
 	Fila<string>FResultante;
 	int K;
 	nope<int> *pF1 = F1.HEAD;
+	
 	for(int = 0; i < 5; i++){
 		F1.push({x,y,i});	
 		pF1 = pF1->prox;	
 	}
+	
 	nope<int> *pFR = FResultante.HEAD;
+	
 	for(int = 0; i < 5; i++){
-		FResultante.push(pow((F1->x + F1->y),Fi->k));	
+		FResultante.push(pow((F1-> + F1->y),Fi->k));	
 		pFR = pFR->prox;	
 	}
+	
 	cout << endl;
 	for(int i = 0; i < 10; i++){
 		cout << " " << FResultante->dado << endl;
@@ -243,6 +271,7 @@ void Funcoes::opcao3b(){
 	int x, y, z[5];
 	nope<int> *pF1 = F1.HEAD;
 	nope<int> *pF2 = F2.HEAD;
+	
 	for(int i = 0; i < 10; i++){
 		x = rand%100;
 		y = F1->at;
@@ -255,7 +284,9 @@ void Funcoes::opcao3b(){
 		pF1 = pF1->prox;
 		}
 	}
+	
 	int maior = z[1];
+	
 	for(int i = 0; i < 10; i++){
 		for(int j = 0; j < 5; j++){
 			if(maior < z[i]){
@@ -266,6 +297,7 @@ void Funcoes::opcao3b(){
 		pF1 = pF1->prox;
 		pF2 = pF2->prox;
 	}
+	
 	cout << "\n\tATRIBUTO E CLASSE:" << endl;
 	for(int i = 0; i < 10; i++){
 		cout << "{ " << F2->at << ", " << F2->classe  << "}"<< endl;
@@ -284,6 +316,7 @@ void Funcoes::opcao4(){
 	nope<int> pF = F.HEAD;
 	nope<int> pL = L.HEAD;
 	nope<int> pP = P.HEAD;
+	
 	for(int i = 0; i < 10; i++){
 		cout << "Informe o numero de volumes: " << endl;
 		cin >> vol;
@@ -307,6 +340,7 @@ void Funcoes::opcao4(){
 			cout << "VOLUME DE PRODUTOS MAIOR QUE O PERMITIDO!" << endl;
 		}
 	} 
+	
 	cout << "\n\tCLIENTES DO DIA:" << endl;
 	for(int i = 0; i < 10; i++){
 		cout << "[i+1]Cpf: " << F.cpf << endl;
@@ -318,9 +352,11 @@ void Funcoes::opcao4(){
 		cout << "\nValor total: " << P->dado;
 		pP = pP->prox;
 	}
+	
 	for(int i = 0; i < 10; i++){
 		faturamento +=P->dado;
 		pP = pP->prox;
 	}
+	
 	cout << "\nFATURAMENTO DO DIA: " << faturanmento;
 }
