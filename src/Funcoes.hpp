@@ -56,6 +56,19 @@ struct fornecedor{
 	fornecedor(int id,int cod,float valor): id(id), cod(cod), valor(valor){}
 };
 
+struct dupla{
+	int at;
+	int vet[5];
+	dupla() = default;
+	dupla(int at, int vet[5]): at(at), vet(vet){}
+};
+
+struct dupla2{
+	int at;
+	int classe;
+	dupla2() = default;
+	dupla2(int at,int classe): at(at),classe(classe){}
+};
 class Funcoes
 {
 	public:

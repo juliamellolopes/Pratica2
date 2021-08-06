@@ -190,7 +190,7 @@ void Funcoes::opcao2b(){
 	}
 	cout << endl;
 	for(int i = 0; i < 10; i++){
-		cout << " " << pP2->dado << endl;
+		cout << " " << P2->dado << endl;
 	    pP2 = pP2->prox;
 	}
 }
@@ -237,17 +237,40 @@ void Funcoes::opcao3a(){
 	}
 }
 
-struct dupla{
-	int at;
-	int vet[5];
-	
-};
-
 void Funcoes::opcao3b(){
-	Fila<>F1;
-	Fila<>F2;
+	Fila<dupla>F1;
+	Fila<dupla2>F2;
+	int x, y, z[5];
 	nope<int> *pF1 = F1.HEAD;
 	nope<int> *pF2 = F2.HEAD;
+	for(int i = 0; i < 10; i++){
+		x = rand%100;
+		y = F1->at;
+		pF1 = pF1->prox;
+		if(x != y){
+			for(int i = 0; i < 5; i++){
+				z[i] = rand%100;
+			}
+		F1.push({x,z});
+		pF1 = pF1->prox;
+		}
+	}
+	int maior = z[1];
+	for(int i = 0; i < 10; i++){
+		for(int j = 0; j < 5; j++){
+			if(maior < z[i]){
+				maior = i;
+			}
+		}
+		F2.push({F1->at, maior});
+		pF1 = pF1->prox;
+		pF2 = pF2->prox;
+	}
+	cout << "\n\tATRIBUTO E CLASSE:" << endl;
+	for(int i = 0; i < 10; i++){
+		cout << "{ " << F2->at << ", " << F2->classe  << "}"<< endl;
+		pF2 = pF2->prox;
+	}
 }
 
 void Funcoes::opcao4(){
