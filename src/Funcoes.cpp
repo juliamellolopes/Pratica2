@@ -4,7 +4,9 @@
 #include "Pilha.hpp"
 #include <cstdio>
 #include <math.h>
+#include <iostream>
 
+using namespace std;
 
 void Funcoes::opcao1a(){
 	List<int> par;
@@ -30,7 +32,7 @@ void Funcoes::opcao1a(){
 	node<tuple> *ptuple = tuplas.HEAD;
 	
 	for (int i = 0; i < 100; i++) {
-	    cout << "{ " << tuplas->dado.n1 << ", " << tuplas->dado.n2 << "}";
+	    cout << "{ " << ptuple->dado.n1 << ", " << ptuple->dado.n2 << "}";
 	    ptuple = ptuple->prox;
 	}
 }
@@ -47,7 +49,7 @@ void Funcoes::opcao1b(){
 		L1.push(rand%13);
 		L2.push(rand%13);
 		pL1 = pL1->prox;
-		pl2 = pL2->prox;
+		pL2 = pL2->prox;
 	}
 	
 	int num = rand%13;
@@ -70,7 +72,7 @@ void Funcoes::opcao1b(){
 	if(somaL1 > somaL2){
 		cout << "\nO vencedor é L1" << endl;
 	}else{
-		cou << "\nO vencedor é L2" << endl;
+		cout << "\nO vencedor é L2" << endl;
 	}
 }
 
@@ -84,11 +86,12 @@ void Funcoes::opcao1c(){
 	node<int> *pL3 = L3.HEAD;
 	node<int> *pL4 = L4.HEAD;
 	int n = 0;
-	int minV = 0
-	nd = list.head
-	minV = nd.value
+	int minV = 0;
+	nd = list.head;
+	minV = nd.value;
 	nd = nd->next;
 	int aux1, aux2, aux3, x;
+	char nome;
 	
 	cout << "quantos produtos vc deseja passar?" << endl;
 	cin >> n;
@@ -110,11 +113,7 @@ void Funcoes::opcao1c(){
 				x = L3->cod;
 				pL3 = pL3->prox;
 				if(aux2 == x){
-					foreach(){
-   						minV = nd.value < minV ? nd.value : minV
-   						nd = nd->next
-					}
-					aux3 = minV;
+					//
 				}
 			}
 		L4.push({aux2,aux1,aux3});	
@@ -140,7 +139,7 @@ void Funcoes::opcao2a(){
 		if(str[i] == '(' ){
 			P1.push(str[i]);
 			pP1 = pP1->prox;
-		}else if(|| str[i] == ')'){
+		}else if(str[i] == ')'){
 			P1.pop();
 			pP1 = pP1->prox;
 		}
@@ -213,14 +212,14 @@ void Funcoes::opcao3a(){
 	int K;
 	nope<int> *pF1 = F1.HEAD;
 	
-	for(int = 0; i < 5; i++){
+	for(int i = 0; i < 5; i++){
 		F1.push({x,y,i});	
 		pF1 = pF1->prox;	
 	}
 	
 	nope<int> *pFR = FResultante.HEAD;
 	
-	for(int = 0; i < 5; i++){
+	for(int i = 0; i < 5; i++){
 		FResultante.push(pow((F1-> + F1->y),Fi->k));	
 		pFR = pFR->prox;	
 	}

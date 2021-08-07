@@ -35,6 +35,11 @@ struct cliente{
 	string CPF;
 	List<produtos>L;
 	cliente() = default;
+	cliente(string CPF, produtos L): CPF(CPF){
+		for(int i = 0; i < 10; i++){
+			this->L.push();
+		}
+	}
 };
 
 struct produto{
@@ -64,6 +69,11 @@ struct dupla{
 	int at;
 	int vet[5];
 	dupla() = default;
+	dupla(int at, int vet[5]):at(at){
+		for(int i = 0; i < 5; i++){
+			this->vet[i] = vet[i];
+		}
+	}
 };
 
 struct dupla2{
