@@ -46,13 +46,13 @@ void Funcoes::opcao1b(){
 	node<int> *pL2 = L2.HEAD;
 	
 	for(int i = 0; i < 3; i++){
-		L1.push(rand%13);
-		L2.push(rand%13);
+		L1.push(rand()%13);
+		L2.push(rand()%13);
 		pL1 = pL1->prox;
 		pL2 = pL2->prox;
 	}
 	
-	int num = rand%13;
+	int num = rand()%13;
 	
 	cout << endl;
 	for(int i = 0; i < 3; i++){

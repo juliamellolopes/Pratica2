@@ -35,11 +35,7 @@ struct cliente{
 	string CPF;
 	List<produtos>L;
 	cliente() = default;
-	cliente(string CPF, produtos L): CPF(CPF){
-		for(int i = 0; i < 10; i++){
-			this->L.push();
-		}
-	}
+	
 };
 
 struct produto{
