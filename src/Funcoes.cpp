@@ -209,7 +209,7 @@ void Funcoes::opcao2c(){
 void Funcoes::opcao3a(){
 	Fila<tuple>F1;
 	Fila<string>FResultante;
-	int K;
+	int x, y,K;
 	nope<int> *pF1 = F1.HEAD;
 	
 	for(int i = 0; i < 5; i++){
