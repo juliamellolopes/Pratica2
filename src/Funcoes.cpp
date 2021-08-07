@@ -4,6 +4,7 @@
 #include "Pilha.hpp"
 #include <cstdio>
 #include <math.h>
+#include "json.hpp"
 
 
 void Funcoes::opcao1a(){
@@ -87,42 +88,9 @@ void Funcoes::opcao1c(){
 	int minV = 0
 	nd = list.head
 	minV = nd.value
-	nd = nd->next
+	nd = nd->next;
 	int aux1, aux2, aux3, x;
 	
-	cout << "\nInforme o numero de cadastros de produtos: " << endl;
-	cin >> n;
-	for(int i = 0; i < n; i++){
-		cout << "\nInforme o codigo do produto: " << endl;
-		cin >> cod;
-		cout << "Informe o nome do produto: " << endl;
-		cin >> nome;
-		cout << "Informe a quantidade do produto: " << endl;
-		cin >> quant;
-		L1.push({cod,nome, quant});
-		pL1 = pL1->prox;
-	}
-	cout << "\nInforme o numero de cadastros de supermercados: " << endl;
-	cin >> n;
-	for(int i = 0; i < n; i++){
-		cout << "\nInforme o ID do supermercado: " << endl;
-		cin >> id;
-		cout << "Informe o codigo do produto: " << endl;
-		cin >> cod;
-		L2.push({id, cod});
-		pL2 = pL2->prox;
-	}
-	cout << "Iniciando cadastro de preços " << endl;
-	for(int i = 0; i < n; i++){
-		cout << "\nInforme o ID do supermercado: " << endl;
-		cin >> id;
-		cout << "Informe o codigo do produto: " << endl;
-		cin >> cod;
-		cout << "Informe o valor do produto: " << endl;
-		cin >> valor;
-		L3.push({id,cod,valor});
-		pL3 = pL3->prox;
-	}
 	cout << "quantos produtos vc deseja passar?" << endl;
 	cin >> n;
 	for(int i = 0; i < n; i++){

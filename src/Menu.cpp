@@ -98,7 +98,7 @@ void Menu::menu(){
 							f.opcao3a();
 						break;
 						}case 2:{
-							
+							f.opcao3b();
 						break;
 						}case 3:{
 							cout << "\n\nSaindo da questão!!";
