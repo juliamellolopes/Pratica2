@@ -324,5 +324,5 @@ void Funcoes::opcao4(){
 		pP = pP->prox;
 	}
 	
-	cout << "\nFATURAMENTO DO DIA: " << faturanmento;
+	cout << "\nFATURAMENTO DO DIA: " << faturamento;
 }
