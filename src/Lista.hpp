@@ -23,8 +23,8 @@ template <typename T> class List{
 	  node<T> *HEAD;
 	  virtual void push(const T dado);
 	  virtual void pop();
-	  int size() const noexcept;
-	  bool isEmpty() const noexcept;
+	  int size();
+	  bool isEmpty();
 	  List();
 	  ~List();
 };

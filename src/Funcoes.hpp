@@ -1,9 +1,11 @@
 #ifndef FUNCOES_H
 #define FUNCOES_H
+#include "Lista.hpp"
+#include "Fila.hpp"
+#include "Pilha.hpp"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string>
-#include "json.hpp"
 #include <iostream>
 using namespace std;
 
@@ -18,13 +20,8 @@ struct triple{
 	int x;
 	int y;
 	int k;
-	tuple() = default;
-	tuple(int x, int y, in k) : x(x), y(y), k(k) {}
-};
-
-struct cliente{
-	string CPF;
-	List<produtos>L;
+	triple() = default;
+	triple(int x, int y, int k) : x(x), y(y), k(k) {}
 };
 
 struct produtos{
@@ -32,6 +29,12 @@ struct produtos{
 	float preco;
 	produtos() = default;
 	produtos(char nome, float preco): nome(nome), preco(preco){}
+};
+
+struct cliente{
+	string CPF;
+	List<produtos>L;
+	cliente() = default;
 };
 
 struct produto{
@@ -61,7 +64,6 @@ struct dupla{
 	int at;
 	int vet[5];
 	dupla() = default;
-	dupla(int at, int vet[5]): at(at), vet(vet){}
 };
 
 struct dupla2{

@@ -19,7 +19,7 @@ template <typename T> void Pilha<T>::pop(){
         node<T> *nd = this->HEAD;
         this->HEAD = this->HEAD->prox;
         delete nd;
-    	nd = nullptr;
+    	nd = NULL;
 	}
     if(this->HEAD == NULL)
     	this->TAIL= NULL;    

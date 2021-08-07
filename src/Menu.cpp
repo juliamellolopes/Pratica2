@@ -1,5 +1,10 @@
 #include "Menu.hpp"
 #include "Funcoes.hpp"
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+using namespace std;
 
 void Menu::menuinicial(){
 	cout << "\n\n1.Questão 01" << endl;
@@ -87,8 +92,7 @@ void Menu::menu(){
 						}
 					}
 				}
-			}
-			break;
+			break;	
 			}case 3:{
 				me.opcao2();
 				cin >> al;

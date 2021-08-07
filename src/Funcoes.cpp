@@ -4,7 +4,6 @@
 #include "Pilha.hpp"
 #include <cstdio>
 #include <math.h>
-#include "json.hpp"
 
 
 void Funcoes::opcao1a(){
@@ -31,7 +30,7 @@ void Funcoes::opcao1a(){
 	node<tuple> *ptuple = tuplas.HEAD;
 	
 	for (int i = 0; i < 100; i++) {
-	    cout << "{ " ptuple->dado.n1 << ", " << ptuple->dado.n2 << "}";
+	    cout << "{ " << tuplas->dado.n1 << ", " << tuplas->dado.n2 << "}";
 	    ptuple = ptuple->prox;
 	}
 }
